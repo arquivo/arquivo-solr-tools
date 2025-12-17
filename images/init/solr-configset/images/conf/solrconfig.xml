@@ -1186,8 +1186,8 @@
   <updateRequestProcessorChain name="add-unknown-fields-to-the-schema" default="${update.autoCreateFields:true}"
            processor="uuid,remove-blank,field-name-mutating,parse-boolean,parse-long,parse-double,parse-date,add-schema-fields">
     <processor class="solr.LogUpdateProcessorFactory"/>
-    <processor class="solr.DistributedUpdateProcessorFactory"/>
-    <processor class="solr.StatelessScriptUpdateProcessorFactory">
+    <processor class="solr.DistributedUpdateProcessorFactory"//>
+    <processor class="org.apache.solr.scripting.update.ScriptUpdateProcessorFactory">
         <str name="script">update-script.js</str>
     </processor>
     <processor class="solr.RunUpdateProcessorFactory"/>
@@ -1302,3 +1302,4 @@
      <transformer name="qecBooster" class="org.apache.solr.response.transform.EditorialMarkerFactory" />
     -->
 </config>
+
