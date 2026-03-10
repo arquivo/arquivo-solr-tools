@@ -1,3 +1,27 @@
+
+# Usage:
+#   This script reads blocking rules from a Google Spreadsheet and checks:
+#     1) Solr servers for matching unblocked documents, optionally blocking them.
+#     2) The public imagesearch API to ensure no blocked content is visible.
+#
+#   Example:
+#       python block_images.py \
+#           --solr "pXX.arquivo.pt:8983,pYY.arquivo.pt:8983" \
+#           --api "arquivo.pt/imagesearch" \
+#           --pathjson service_account.json \
+#           --key <GOOGLE_SHEET_KEY> \
+#           --worksheet "Requests"
+#
+#   Flags:
+#       --no-solr         Skip Solr checks entirely.
+#       --no-solr-update  Check Solr but do not apply blocking updates. (dry-run)
+#       --no-api          Skip imagesearch API validation.
+#
+#   Requires:
+#       - Google service account JSON with access to the spreadsheet
+#       - Network access to Solr hosts and the imagesearch API
+#       - Python packages: requests, gspread, pandas, gspread_dataframe
+
 import requests
 import sys
 import json
@@ -9,7 +33,7 @@ import argparse
 import re
 import time
 
-#makes sure a timestamp is a string and is in the format YYYYMMDDhhmmss
+# Normalize a timestamp into a 14‑digit YYYYMMDDhhmmss string.
 def sanitizeTimestamp(timestamp):
 	default="19920101000000"
 	timestamp = str(timestamp)
@@ -19,7 +43,7 @@ def sanitizeTimestamp(timestamp):
 		timestamp=timestamp + default[len(timestamp):]
 	return timestamp
 
-#converts a timestamp into a format compatible with solr queries
+# Convert timestamp (YYYYMMDDhhmmss) into a Solr-compatible ISO8601 date string.
 def timestampToSolrDate(timestamp):
 	timestamp = sanitizeTimestamp(timestamp)
 	year = int(timestamp[0:4])
@@ -28,9 +52,9 @@ def timestampToSolrDate(timestamp):
 	hour = int(timestamp[8:10])
 	minute = int(timestamp[10:12])
 	second = int(timestamp[12:14])
-	return '"'+datetime(year, month, day, hour, minute, second).isoformat(timespec='milliseconds') + 'Z"'
+	return '"' + datetime(year, month, day, hour, minute, second).isoformat(timespec='milliseconds') + 'Z"'
 
-#makes sure the url does not include the protocol or www and strips the whitespaces around it
+# Normalize URL for filtering: remove protocol, remove 'www', trim whitespace.
 def sanitizeUrl(url):
 	reg = re.compile(r"https?://(www\.)?")
 	url = reg.sub("", url)
@@ -39,10 +63,10 @@ def sanitizeUrl(url):
 	url = reg.sub("", url)
 	return url
 
-PAGE_SIZE = 50000
-API_PAGE_SIZE = 200
+PAGE_SIZE = 50000      # Number of Solr docs to update per page
+API_PAGE_SIZE = 200    # Number of API results per request
 
-# Parse args
+# Argument parser for Solr/API/Spreadsheet configuration
 parser = argparse.ArgumentParser(description='Script that automatically searches the Solr servers for content that should be blocked and blocks it if needed. It also confirms via the imagesearch API that no such content is publicly available.')
 parser.add_argument('-s','--solr', help='Solr hosts to make queries (comma separated if more than one)', default= "HOSTS")
 parser.add_argument('-a','--api', help='Imagesearch API endpoint', default= "arquivo.pt/imagesearch")
@@ -50,20 +74,20 @@ parser.add_argument('-j','--pathjson', help='Destination of the json file with g
 parser.add_argument('-k','--key', help='Key for Google Spreadsheet with list of blocking requests (the key is in the URL)', default= "SPREADSHEET")
 parser.add_argument('-ws','--worksheet', help='Name of the worksheet (tab) of Google Spreadsheet', default= "WORKSHEET")
 parser.set_defaults(check_api=True)
-parser.add_argument('--no-api', dest='check_api', action='store_false', help='If active prevents the script from checking the imagesearch API for blocked content')
+parser.add_argument('--no-api', dest='check_api', action='store_false', help='Disable checking the imagesearch API')
 parser.set_defaults(check_solr=True)
-parser.add_argument('--no-solr', dest='check_solr', action='store_false', help='If active will not check solr at all (it also won\'t block documents)')
+parser.add_argument('--no-solr', dest='check_solr', action='store_false', help='Disable Solr checking and blocking')
 parser.set_defaults(update_solr=True)
-parser.add_argument('--no-solr-update', dest='update_solr', action='store_false', help='If active will not automatically block documents in solr')
+parser.add_argument('--no-solr-update', dest='update_solr', action='store_false', help='Disable automatic Solr blocking updates')
 args = vars(parser.parse_args())
 
-#Connect gspread
+# Load Google Sheets
 gc = gspread.service_account(filename=args['pathjson'])
 sh =  gc.open_by_key(args['key'])
 worksheet = sh.worksheet(args['worksheet'])
 df = get_as_dataframe(worksheet)
 
-#Parse remaining arguments
+# Prepare Solr/API config based on arguments
 api_request_host = "http://{0}".format(sanitizeUrl(args['api']))
 hosts = list(map(sanitizeUrl,args['solr'].split(',')))
 
@@ -74,6 +98,7 @@ update_solr = args['update_solr']
 api_domains = {}
 print_output_line = ""
 
+# Column indexes for spreadsheet fields
 url_col = 0
 timestamp_col = 2
 from_col = 3
@@ -86,7 +111,7 @@ if(check_solr):
 
 for ind in df.index:
 
-	#build the filter for the url for solr
+	# Build Solr domain filter for URL variations
 	domain = sanitizeUrl(df[df.columns[url_col]][ind])
 	domain_base = domain.split('/')[0].split(':')[0]
 	domain_extra = domain.split('/',1)[1] if len(domain.split('/')) > 1 else "" 
@@ -111,30 +136,29 @@ for ind in df.index:
 
 	query_filter = domain_filter
 	api_current_domain = [domain_base,False,False]
+
+	# CASE 1 — Specific timestamp provided
 	if(not pd.isnull(df[df.columns[timestamp_col]][ind])):
-		#build solr and API filters for timestamp
-		#   It's not an exact match, itsearches for timestamps up to 1h
-		#   away from the requested timestamp
 		timestamp = int(df[df.columns[timestamp_col]][ind])
+
+		# Compute +/- 1 hour range for Solr queries
 		timestamp_from = str(timestamp-10000) if (timestamp % 1000000) > 10000 else str(timestamp - (timestamp % 1000000))
 		timestamp_to = str(timestamp+10000) if (timestamp % 1000000) < 230000 else str(timestamp - (timestamp % 1000000) + 235959)
-		#solr_date = timestampToSolrDate(timestamp)
+
 		range_from = timestampToSolrDate(timestamp_from)
 		range_to = timestampToSolrDate(timestamp_to)
 		timestamp_filter = "imgCrawlTimestamp:[{0} TO {1}]%20OR%20pageCrawlTimestamp:[{0} TO {1}]".format(range_from,range_to)
-		#timestamp_filter = "imgCrawlTimestamp:{0}%20OR%20pageCrawlTimestamp:{0}".format(solr_date)
+
 		query_filter = "({0})%20AND%20({1})".format(domain_filter,timestamp_filter)
-		#api_request_query_params.append("from={0}".format(timestamp_from))
-		#api_request_query_params.append("to={0}".format(timestamp_to))
 		api_current_domain = [domain_base,timestamp_from,timestamp_to]
 
 		print_output_line = "{0} at timestamp {1}".format(print_output_line,timestamp)
 
-
+	# CASE 2 — A timestamp range is provided instead
 	elif((not pd.isnull(df[df.columns[from_col]][ind])) or (not pd.isnull(df[df.columns[to_col]][ind]))):
-		#build solr and API filters for time range
 		range_from = "*" if pd.isnull(df[df.columns[from_col]][ind]) else timestampToSolrDate(int(df[df.columns[from_col]][ind]))
 		range_to =  "*" if pd.isnull(df[df.columns[to_col]][ind]) else timestampToSolrDate(int(df[df.columns[to_col]][ind]))
+
 		range_filter = "imgCrawlTimestamp:[{0} TO {1}]%20OR%20pageCrawlTimestamp:[{0} TO {1}]".format(range_from,range_to)
 		query_filter = "({0})%20AND%20({1})".format(domain_filter,range_filter)
 
@@ -142,18 +166,27 @@ for ind in df.index:
 		timestamp_to = datetime.now().strftime("%Y%m%d%H%M%S") if pd.isnull(df[df.columns[to_col]][ind]) else sanitizeTimestamp(int(df[df.columns[to_col]][ind]))
 		api_current_domain = [domain_base,timestamp_from,timestamp_to]
 		
-		print_output_line = "{0} from {1} to {2}".format(print_output_line, "*" if pd.isnull(df[df.columns[from_col]][ind]) else int(df[df.columns[from_col]][ind]), "*" if pd.isnull(df[df.columns[to_col]][ind]) else int(df[df.columns[to_col]][ind]))	
+		print_output_line = "{0} from {1} to {2}".format(
+		print_output_line,
+		"*" if pd.isnull(df[df.columns[from_col]][ind]) else int(df[df.columns[from_col]][ind]),
+		"*" if pd.isnull(df[df.columns[to_col]][ind]) else int(df[df.columns[to_col]][ind])
+		)
 
+	# Build Solr query: one with all results, one excluding already-blocked docs
 	query_filter_all = query_filter
 	query_filter = "({0})%20AND%20-blocked:1".format(query_filter)
 
+	# Group API domain checks by domain/time-range
 	if(check_api):
 		api_domains.setdefault(json.dumps(api_current_domain),[]).append(domain)
 
+	# Perform Solr queries if enabled
 	if(check_solr):
 		print("{0}:".format(print_output_line), flush=True)
 		for host in hosts:
 			description = "    {0}".format(host)
+
+			# Query including all documents
 			base_query_all = "http://{0}/solr/images/select?q=".format(host) + query_filter_all
 			r = requests.get(base_query_all)
 			try:
@@ -162,16 +195,16 @@ for ind in df.index:
 				print("Failed to load response for query: {0}".format(base_query_all), flush=True)
 				sys.exit()
 
+			# Query only for unblocked documents
 			base_query = "http://{0}/solr/images/select?q=".format(host) + query_filter
-			#print( "    {0}".format(base_query) , flush=True)
 			r = requests.get(base_query)
-			#print(r.json(), flush=True)
 			try:
 				counts = r.json()["response"]["numFound"]
 			except:
 				print("Failed to load response for query: {0}".format(base_query), flush=True)
 				sys.exit()
 
+			# If unblocked docs exist, block them
 			if(counts > 0):
 				print("{0}: WARNING - Found {1} images that need to be blocked, out of {2}".format(description,counts,counts_all), flush=True)
 				if(update_solr):
@@ -185,8 +218,8 @@ for ind in df.index:
 				print("{0}: All {1} images blocked in solr".format(description,counts_all), flush=True)
 
 
+# Check with imagesearch API if any blocked content is still publicly accessible
 if(check_api):
-	#Make API queries to check if none of the blocked items are in the results
 
 	print("", flush=True)
 	print("-- Checking API for blocked results --", flush=True)
@@ -199,8 +232,13 @@ if(check_api):
 
 		print_output_line = domain_base
 
-		#build the filter for the url for the imagesearch API
-		api_request_query_params = [ "safeSearch=off" , "siteSearch={0},www.{0}".format(domain_base), "maxItems={0}".format(API_PAGE_SIZE) ]
+		# Build API query parameters
+		api_request_query_params = [
+		"safeSearch=off",
+		"siteSearch={0},www.{0}".format(domain_base),
+		"maxItems={0}".format(API_PAGE_SIZE)
+		]
+
 		if(params[1] and params[2]):
 			api_request_query_params.append("from={0}".format(params[1]))
 			api_request_query_params.append("to={0}".format(params[2]))
@@ -211,12 +249,16 @@ if(check_api):
 		api_base_query="{0}?{1}".format(api_request_host,"&".join(api_request_query_params))
 		r = requests.get(api_base_query)
 		counts = r.json()["totalItems"]
+
+		# API found results → check if they match blocked patterns
 		if(counts > 0):
 			domains_extra = list(map(lambda domain:domain.split('/',1)[1] if len(domain.split('/')) > 1 else "",domains))
+
+			# If no sub-path constraints exist, simply warn
 			if(any(map(lambda domain_extra: len(domain_extra) == 0,domains_extra))):
 				print("    WARNING - Found {0} results for the following query: {1}".format(counts,api_base_query), flush=True)
 				print("    They should be blocked by one or more of the following rules:", flush=True)
-				print("        {0}".format(domains), flush=True)   
+				print("        {0}".format(domains), flush=True)
 				print("    Results found:", flush=True)
 				idx = 0
 				for d in r.json()["responseItems"]:
@@ -228,6 +270,7 @@ if(check_api):
 			else:
 				checked = 0
 
+				# Build regex to identify domain matches in API output
 				regex_domain_base = '.*'.join(map(re.escape,domain_base.split('*')))
 				regex_domains_extra= list(map(lambda domain_extra: re.escape('/') + '.*'.join(map(re.escape,domain_extra.split('*'))), domains_extra))
 
@@ -237,6 +280,8 @@ if(check_api):
 
 				currentPage = api_base_query
 				blockSuccess = True
+
+				# Iterate through paginated API results
 				while (checked < counts and len(r.json()["responseItems"]) > 0):
 					bad_apples = list(filter(lambda doc: ( bool(reg.search(doc["pageURL"])) or bool(reg.search(doc["imgSrc"])) ),r.json()["responseItems"]))
 					if(len(bad_apples) > 0):
@@ -244,18 +289,20 @@ if(check_api):
 						blockSuccess = False
 						idx = 0
 						for d in bad_apples:
-							print("        {0}:".format(idx), flush=True)
+							print("        {0}:".format(idx))
 							print("        imgLinkToArchive: {0}".format(d["imgLinkToArchive"]), flush=True)
 							print("        pageLinkToArchive: {0}".format(d["pageLinkToArchive"]), flush=True)
 							idx += 1
 
 					checked = checked + len(r.json()["responseItems"])
 					currentPage = r.json()["nextPage"]
-					#prevent DoSing the API
+
+					# Avoid hammering the API
 					time.sleep(1)
 					r = requests.get(currentPage)
+
 				if(blockSuccess):
 					print("    Successfully blocked all results from API", flush=True)
+
 		else:
 			print("    Successfully blocked all results from API", flush=True)
-
