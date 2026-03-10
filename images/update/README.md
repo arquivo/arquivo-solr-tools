@@ -1,6 +1,6 @@
-# README.md
+# Images Update Scripts
 
-# Installation
+## Installation
 
 ```
 pip install -r requirements.txt
@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ---
 
-# `block_images.py`
+## `block_images.py`
 
 This script reads blocking rules from a Google Spreadsheet and:
 
@@ -16,9 +16,9 @@ This script reads blocking rules from a Google Spreadsheet and:
 - Optionally applies blocking updates  
 - Verifies whether blocked content appears in the imagesearch API
 
-## Usage
+### Usage
 
-### 1. Block all matching images in Solr (no API needed)
+#### 1. Block all matching images in Solr (no API needed)
 
 ```
 python block_images.py     \
@@ -29,7 +29,7 @@ python block_images.py     \
     --no-api
 ```
 
-### 2. Check whether the API is serving blocked content (no Solr needed)
+#### 2. Check whether the API is serving blocked content (no Solr needed)
 
 ```
 python block_images.py     \
@@ -40,7 +40,7 @@ python block_images.py     \
     --no-solr
 ```
 
-### 3. Dry-run Solr check (do not block anything)
+#### 3. Dry-run Solr check (no API needed, do not block anything)
 
 ```
 python block_images.py     \
@@ -54,12 +54,12 @@ python block_images.py     \
 
 ---
 
-# `update_docs_by_collection.py`
+## `update_docs_by_collection.py`
 
 (Documentation to be added.)
 
 ---
 
-# `update_nsfw.py`
+## `update_nsfw.py`
 
 (Documentation to be added.)
