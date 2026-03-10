@@ -51,6 +51,22 @@ python block_images.py     \
     --no-solr-update \
     --no-api
 ```
+---
+## `update_block.py`
+
+Blocks all Solr image documents for one or more domains.
+
+### Usage
+
+```
+python update_block.py <SOLR_HOST> "<DOMAIN_1,DOMAIN_2,...>"
+```
+
+### Example
+
+```
+python update_block.py pXX.arquivo.pt:8983 "example.com,example.pt"
+```
 
 ---
 
@@ -62,4 +78,16 @@ python block_images.py     \
 
 ## `update_nsfw.py`
 
-(Documentation to be added.)
+Sets all Solr image documents for one or more domains as NSFW.
+
+### Usage
+
+```
+python update_nsfw.py <SOLR_HOST> "<DOMAIN_1,DOMAIN_2,...>"
+```
+
+### Example
+
+```
+python update_nsfw.py pXX.arquivo.pt:8983 "example.com,example.pt"
+```
