@@ -78,3 +78,42 @@ Example scripts on how to manipulate documents in the Solr index after posting
 
 - `update_block.py`: update documents according to the block list.
 
+
+## Shared scripts
+
+### `backup_shards.sh`
+
+Generates rsync commands to back up every shard of a SolrCloud collection from all nodes that host a replica. Queries `CLUSTERSTATUS`, groups cores by node, then prints one `rsync` per core. Pass `-e` to also run them in parallel.
+
+On-disk layout: `<backup-dir>/<short-node>/<core>/` (e.g. `/data/solr-backups/p79/images_shard1_replica_n3/`).
+
+Two destination modes:
+
+- **Local** (default): rsync pulls each remote core into a directory on the machine running the script.
+- **Remote** (`-H <host>`): the script SSHes into `<host>` and runs rsync there, pulling from each solr node. Uses agent forwarding (`ssh -A`), so the backup host reuses your local SSH keys to reach the solr nodes — no need to install keys on the backup host. First-time host keys are auto-accepted (`StrictHostKeyChecking=accept-new`).
+
+Options:
+
+| Flag | Env | Default | Description |
+| --- | --- | --- | --- |
+| `-u`, `--url` | `SOLR_URL` | `http://p87.arquivo.pt:3200` | Solr URL to query for cluster state |
+| `-c`, `--collection` | `COLLECTION` | `images` | Collection name |
+| `-d`, `--data-dir` | `DATA_DIR` | `/data/image-search-solr/data` | Solr data dir on each remote node |
+| `-b`, `--backup-dir` | `BACKUP_DIR` | `/data/solr-backups` | Destination directory (on backup host if `-H` is set, otherwise local) |
+| `-H`, `--backup-host` | `BACKUP_HOST` | _(unset = local)_ | Remote host that holds the backup |
+| `-e`, `--execute` | — | dry-run | Actually run the rsyncs |
+| — | `SSH_USER` | `amourao` | SSH user for solr nodes and backup host |
+| — | `DOMAIN` | `.arquivo.pt` | Stripped from node hostnames for the on-disk path |
+
+Examples:
+
+```sh
+# Print rsync commands, local destination
+./shared/backup_shards.sh -c images
+
+# Execute, push to a dedicated backup host
+./shared/backup_shards.sh -c images -H p121.arquivo.pt -b /data/solr-shards-backup -e
+```
+
+Requirements: SSH access from this machine to each solr node (and to the backup host if `-H` is set); write permission on the destination directory; `python3` and `curl` locally.
+
