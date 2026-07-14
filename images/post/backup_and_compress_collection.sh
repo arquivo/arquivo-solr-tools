@@ -92,6 +92,8 @@ backup() {
     LOCAL_JSONL_COUNT=$(find $HADOOP_FOLDER/$COLLECTION -type f -name "*.jsonl" | wc -l)
     find $HADOOP_FOLDER/$COLLECTION -mindepth 1 -maxdepth 1 -type d | rev | cut -d/ -f1 | rev | xargs -I {} scp -q "root@$OTHER_SERVER:$HADOOP_FOLDER/$COLLECTION/{}/*.jsonl" $BACKUP_FOLDER/$COLLECTION/{}
 
+    # Retry once: the backup may run unattended for hours, and the SSH password prompt may time out.
+    # A second attempt ensures the user, now present, gets prompted again.
     if [ ! $? -eq 0 ]; then
       echo "Warning - Something went wrong. Retrying..."
       find $HADOOP_FOLDER/$COLLECTION -mindepth 1 -maxdepth 1 -type d | rev | cut -d/ -f1 | rev | xargs -I {} scp -q "root@$OTHER_SERVER:$HADOOP_FOLDER/$COLLECTION/{}/*.jsonl" $BACKUP_FOLDER/$COLLECTION/{}
@@ -160,6 +162,8 @@ sync() {
   echo "[SYNC] - Copying backup to $OTHER_SERVER..."
   scp -r $BACKUP_FOLDER/$COLLECTION root@$OTHER_SERVER:$BACKUP_FOLDER/
 
+  # Retry once: the backup may run unattended for hours, and the SSH password prompt may time out.
+  # A second attempt ensures the user, now present, gets prompted again.
   if [ ! $? -eq 0 ]; then
     echo "Something went wrong. Retrying..."
     scp -r $BACKUP_FOLDER/$COLLECTION root@$OTHER_SERVER:$BACKUP_FOLDER/
