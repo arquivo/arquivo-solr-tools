@@ -36,7 +36,7 @@ EOF
 
 check() {
   # Mandatory fields:
-  if [ -z "$COLLECTION" ] || [ -z "OTHER_SERVER" ]; then
+  if [ -z "$COLLECTION" ] || [ -z "$OTHER_SERVER" ]; then
     echo 'ERROR - Missing arguments'
     usage
   fi
@@ -114,7 +114,6 @@ backup() {
 
 compress() {
   echo "[COMPRESS] - Starting compress step"
-  BACKUP_FOLDER=/data/images/to_backup/pipe # Where the backup is stored
   INPUT_FOLDER=$(bash -c "find $BACKUP_FOLDER -mindepth 1 -maxdepth 1 -type d && echo $BACKUP_FOLDER/$COLLECTION" | sort | uniq -d)
 
   if [ -z "$INPUT_FOLDER" ]; then
@@ -157,14 +156,13 @@ compress() {
 
 sync() {
   echo "[SYNC] - Starting synchronization step"
-  BACKUP_FOLDER=/data/images/to_backup/pipe # Where the backup is stored
 
   echo "[SYNC] - Copying backup to $OTHER_SERVER..."
-  scp -r $BACKUP_FOLDER/$COLLECTION $OTHER_SERVER:$BACKUP_FOLDER/
+  scp -r $BACKUP_FOLDER/$COLLECTION root@$OTHER_SERVER:$BACKUP_FOLDER/
 
   if [ ! $? -eq 0 ]; then
     echo "Something went wrong. Retrying..."
-    scp -r $BACKUP_FOLDER/$COLLECTION $OTHER_SERVER:$BACKUP_FOLDER/
+    scp -r $BACKUP_FOLDER/$COLLECTION root@$OTHER_SERVER:$BACKUP_FOLDER/
   fi
   if [ ! $? -eq 0 ]; then
     echo "ERROR - Something went wrong while copying files to $OTHER_SERVER! Aborting."
