@@ -82,6 +82,7 @@ def post_jsonl_no_commit(solr_host: str, solr_port: int, solr_collection: str, j
     # check=True -> raises CalledProcessError on non-zero exit
     # timeout -> safety for hung connections
     result = subprocess.run(cmd, check=True, timeout=timeout, capture_output=True, text=True)
+    print(result.stdout)
     response = json.loads(result.stdout)
     if response.get("responseHeader", {}).get("status", 0) != 0:
         raise RuntimeError(f"Solr error: {response}")
