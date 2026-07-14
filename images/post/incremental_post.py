@@ -7,6 +7,7 @@ import re
 import time
 import random
 import logging
+import shutil
 from pathlib import Path
 
 FORMAT = '%(asctime)-15s %(message)s'
@@ -30,6 +31,11 @@ Description:
     show the metadata of the older image, but also include the newer image's collection in the
     collection list.
     To force the script to overwrite previously indexed images, the OVERWRITE flag must be set.
+
+    If any batches fail to post (due to a Solr error or a network issue), they are saved as JSONL
+    files under a 'failed_batches/' directory in the current working directory. A warning is printed
+    at the end of the run with the number of failed batches. Failed batches can be re-posted manually
+    or inspected to identify the affected documents. Errors are also recorded in times.log.
 
 Recommendations:
     - This script was made for python3.9, other versions of python were not tested and may or may not
@@ -75,7 +81,10 @@ def post_jsonl_no_commit(solr_host: str, solr_port: int, solr_collection: str, j
 
     # check=True -> raises CalledProcessError on non-zero exit
     # timeout -> safety for hung connections
-    subprocess.run(cmd, check=True, timeout=timeout)
+    result = subprocess.run(cmd, check=True, timeout=timeout, capture_output=True, text=True)
+    response = json.loads(result.stdout)
+    if response.get("responseHeader", {}).get("status", 0) != 0:
+        raise RuntimeError(f"Solr error: {response}")
 
 
 def final_commit(solr_host: str, solr_port: int, solr_collection: str, timeout: int = 3600) -> None:
@@ -94,6 +103,9 @@ def post_and_log(SOLR_COLLECTION, COLLECTION_LIST, SOLR_HOST, SOLR_PORT, OVERWRI
 
 
     os.makedirs("log", exist_ok=True)
+    failed_batches_dir = "failed_batches"
+    os.makedirs(failed_batches_dir, exist_ok=True)
+    failed_count = 0
 
     logging.info("START,{},{},{},{},{},{}".format(time.time(), SOLR_COLLECTION, COLLECTION_LIST, SOLR_HOST, SOLR_PORT, OVERWRITE))
 
@@ -134,17 +146,34 @@ def post_and_log(SOLR_COLLECTION, COLLECTION_LIST, SOLR_HOST, SOLR_PORT, OVERWRI
             if tmp_file_len == POST_LIMIT:
               out.close()
               logging.info("POST,RUNNING,{}".format(tmp_file_len))
-              post_jsonl_no_commit(SOLR_HOST, SOLR_PORT, SOLR_COLLECTION, OUT_TMP, OVERWRITE)
+              try:
+                post_jsonl_no_commit(SOLR_HOST, SOLR_PORT, SOLR_COLLECTION, OUT_TMP, OVERWRITE)
+              except Exception as e:
+                failed_count += 1
+                dest = f"{failed_batches_dir}/failed_batch_{failed_count}.jsonl"
+                shutil.copy(OUT_TMP, dest)
+                logging.error(f"Batch failed: {e}. Saved to {dest}")
               out = open(OUT_TMP, "w")
               tmp_file_len = 0
 
     out.close()
     if tmp_file_len > 0:
       logging.info("POST,RUNNING,{}".format(tmp_file_len))
-      post_jsonl_no_commit(SOLR_HOST, SOLR_PORT, SOLR_COLLECTION, OUT_TMP, OVERWRITE)
+      try:
+        post_jsonl_no_commit(SOLR_HOST, SOLR_PORT, SOLR_COLLECTION, OUT_TMP, OVERWRITE)
+      except Exception as e:
+        failed_count += 1
+        dest = f"{failed_batches_dir}/failed_batch_{failed_count}.jsonl"
+        shutil.copy(OUT_TMP, dest)
+        logging.error(f"Batch failed: {e}. Saved to {dest}")
 
     logging.info("Final commit...")
     final_commit(SOLR_HOST,SOLR_PORT,SOLR_COLLECTION)
+
+    if failed_count > 0:
+        msg = f"WARNING: {failed_count} batch(es) failed to post. Failed batches saved to '{failed_batches_dir}/'."
+        print(msg)
+        logging.warning(msg)
 
 
 if __name__ == "__main__":
