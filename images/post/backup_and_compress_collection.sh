@@ -58,13 +58,16 @@ backup() {
     exit 5
   fi
 
-  if [ -e $BACKUP_FOLDER/$COLLECTION ]; then
-    echo "ERROR - Collection already backed up on $BACKUP_FOLDER/$COLLECTION"
+  echo "[BACKUP] - Copying $COLLECTION to backups folder..."
+  mkdir -p $BACKUP_FOLDER/$COLLECTION
+
+  ALREADY_BACKED_UP=$(find $HADOOP_FOLDER/$COLLECTION -mindepth 1 -maxdepth 1 -type d | rev | cut -d/ -f1 | rev | xargs -I {} bash -c "{ [ -e $BACKUP_FOLDER/$COLLECTION/{} ] || [ -e $BACKUP_FOLDER/$COLLECTION/{}.tar.gz ]; } && echo {}")
+
+  if [ ! -z "$ALREADY_BACKED_UP" ]; then
+    echo "ERROR - The following subdirectories are already backed up in $BACKUP_FOLDER/$COLLECTION:"
+    echo "$ALREADY_BACKED_UP"
     exit 1
   fi
-
-  echo "[BACKUP] - Copying $COLLECTION to backups folder..."
-  mkdir $BACKUP_FOLDER/$COLLECTION
 
   # Moving local files to backup folder:
   find $HADOOP_FOLDER/$COLLECTION -mindepth 1 -maxdepth 1 -type d | rev | cut -d/ -f1 | rev | xargs -I {} mkdir $BACKUP_FOLDER/$COLLECTION/{}
