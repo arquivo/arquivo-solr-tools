@@ -56,15 +56,15 @@ if (( ${#COMPRESSED_FILES[@]} == 0 )); then
     exit_error
 else
     for FILE in "${COMPRESSED_FILES[@]}"; do
-      rm -rf "$TMP_FOLDER/*"
+      rm -rf "$TMP_FOLDER"/*
       echo "Decompressing $FILE..."
-      tar xzf "$FILE" -C "$TMP_FOLDER"
+      tar xzf "$FILE" -C "$TMP_FOLDER" || exit_error
       find "$TMP_FOLDER" -type f -name "part-r*" | sort > "$TMP_FOLDER"/toPost.txt
       head -n3 "$TMP_FOLDER"/toPost.txt
       echo "..."
       tail -n3 "$TMP_FOLDER"/toPost.txt
       echo "Posting..."
-      python3.9 "$SCRIPTS_FOLDER"/incremental_post.py "$SOLR_HOST" "$SOLR_PORT" "$SOLR_COLLECTION" "$TMP_FOLDER"/toPost.txt
+      python3.9 "$SCRIPTS_FOLDER"/incremental_post.py "$SOLR_HOST" "$SOLR_PORT" "$SOLR_COLLECTION" "$TMP_FOLDER"/toPost.txt || exit_error
     done
 fi
 
