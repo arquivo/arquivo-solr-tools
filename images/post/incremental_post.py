@@ -78,7 +78,7 @@ def post_jsonl_no_commit(solr_host: str, solr_port: int, solr_collection: str, j
     subprocess.run(cmd, check=True, timeout=timeout)
 
 
-def final_commit(solr_host: str, solr_port: int, solr_collection: str, timeout: int = 120) -> None:
+def final_commit(solr_host: str, solr_port: int, solr_collection: str, timeout: int = 3600) -> None:
     """
     Issue a final hard commit to Solr at the end of ingestion.
     Hits /update?commit=true.
