@@ -3,7 +3,7 @@ PROGNAME=$0
 
 # Path towards hadoop output folder & backup folder. Edit this if needed.
 BACKUP_FOLDER=/data/images/to_backup/pipe # Where the backup is stored
-SCRIPTS_FOLDER=/opt/solr-cloud-scripts/images/post
+SCRIPTS_FOLDER=$(dirname "$(realpath "$0")")
 TMP_FOLDER=$(mktemp -d "/data/tmp_XXXXXX")
 
 usage() {
