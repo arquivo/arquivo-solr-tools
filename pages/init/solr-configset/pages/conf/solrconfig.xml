@@ -786,10 +786,10 @@
       <!-- minimum length of a query term to be considered for correction -->
       <int name="minQueryLength">3</int>
       <!-- maximum threshold of documents a query term can appear to be considered for correction -->
-      <float name="maxQueryFrequency">0.005</float>
-      <!-- uncomment this to require suggestions to occur in 1% of the documents
-        <float name="thresholdTokenFrequency">.01</float>
-      -->
+      <float name="maxQueryFrequency">0.00002</float>
+      <float name="thresholdTokenFrequency">0.00002</float>
+      <!-- rank candidate suggestions by lexical closeness (edit distance) first, frequency as tiebreak -->
+      <str name="comparatorClass">score</str>
     </lst>
 
     <!-- a spellchecker that can break or combine words.  See "/spell" handler below for usage -->
@@ -827,13 +827,12 @@
       <str name="spellcheck.dictionary">default</str>
       <str name="spellcheck">on</str>
       <str name="spellcheck.extendedResults">true</str>
-      <str name="spellcheck.count">10</str>
+      <str name="spellcheck.count">1</str>
       <str name="spellcheck.alternativeTermCount">5</str>
-      <str name="spellcheck.maxResultsForSuggest">5</str>
       <str name="spellcheck.collate">true</str>
       <str name="spellcheck.collateExtendedResults">true</str>
       <str name="spellcheck.maxCollationTries">10</str>
-      <str name="spellcheck.maxCollations">5</str>
+      <str name="spellcheck.maxCollations">1</str>
     </lst>
     <arr name="last-components">
       <str>spellcheck</str>
