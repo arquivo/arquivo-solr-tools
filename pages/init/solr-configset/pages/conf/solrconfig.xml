@@ -735,6 +735,10 @@
       <str name="hl.maxAnalyzedChars">51200</str> <!-- Maximum number of characters to analyze for highlighting -->
       <str name="hl.mergeContiguous">true</str> <!-- Merge contiguous fragments -->
     </lst>
+
+    <arr name="last-components">
+      <str>spellcheck</str>
+    </arr>
   </requestHandler>
 
   <!-- A request handler that returns indented JSON by default -->
