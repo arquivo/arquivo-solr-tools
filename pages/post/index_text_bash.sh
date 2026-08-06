@@ -1,8 +1,8 @@
-# Purpose: Posts JSONL files into Solr
+# Purpose: Indexes text files in Solr
 #!/bin/bash
 
 # index_text_bash.sh
-# Usage: ./index_text_bash.sh <SOLR_COLLECTION> <COLLECTION_FILE> <SOLR_HOST> <SOLR_PORT>
+# Usage: ./index_text_bash.sh <COLLECTION> <COLLECTION_FILE> <SOLR_HOST> <SOLR_PORT>
 
 LOG_BASEDIR=./log
 POST_MAX_BYTES=100M
@@ -61,3 +61,4 @@ curl "http://$HOST:$PORT/solr/$COLLECTION/update/json?commit=true"
 # Logging
 LOG_FILE_PATH="$LOG_DIR/final_metrics.json"
 wget "http://$HOST:$PORT/solr/admin/cores?wt=json" -O "$LOG_FILE_PATH"
+
