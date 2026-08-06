@@ -225,9 +225,12 @@ do
       usage
       ;;
     b) #Backup flag
-      COMPRESS=false
-      SYNC=false
-      CLEANUP=false
+      if $BACKUP ; then
+        COMPRESS=false
+        SYNC=false
+        CLEANUP=false
+      fi
+      BACKUP=true
       ;;
     c) #Compress flag
       if $COMPRESS ; then
