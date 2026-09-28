@@ -1,0 +1,3270 @@
+# AO90 (1990 orthographic agreement) pre/post-reform spelling synonyms.
+# Scraped from portaldalinguaportuguesa.org's "Vocabulário de Mudança"
+# (version=pe) by scrape_ao90_synonyms.py - do not edit by
+# hand, re-run the script instead.
+#
+# Format: comma-separated equivalence groups, expanded bidirectionally
+# by the synonymGraph filter (expand=true).
+
+ab-reactivo, ab-reativo
+ab-reacção, ab-reação
+abaptista, abatista
+abjeccionista, abjecionista
+abjectamente, abjetamente
+abjecto, abjeto
+abjecção, abjeção
+abrotanoide, abrotanóide
+abstraccionismo, abstracionismo
+abstraccionista, abstracionista
+abstracta, abstrata
+abstractamente, abstratamente
+abstractismo, abstratismo
+abstractivamente, abstrativamente
+abstractivismo, abstrativismo
+abstractivo, abstrativo
+abstractizado, abstratizado
+abstractizante, abstratizante
+abstractizar, abstratizar
+abstracto, abstrato
+abstractor, abstrator
+abstractício, abstratício
+abstracção, abstração
+abutiloide, abutilóide
+acantoide, acantóide
+acantozoide, acantozóide
+acaroide, acaróide
+acatalecto, acataleto
+acatéctico, acatético
+accionabilidade, acionabilidade
+accionadamente, acionadamente
+accionado, acionado
+accionador, acionador
+accional, acional
+accionamento, acionamento
+accionar, acionar
+accionista, acionista
+accionário, acionário
+accionável, acionável
+accipitrino, acipitrino
+accipitrário, acipitrário
+accipitrídeo, acipitrídeo
+aceptor, acetor
+acepção, aceção
+acha de armas, acha-de-armas
+acta, ata
+actinoide, actinóide
+activa, ativa
+activado, ativado
+activador, ativador
+activamente, ativamente
+activante, ativante
+activar, ativar
+activação, ativação
+actividade, atividade
+activismo, ativismo
+activista, ativista
+activo, ativo
+activável, ativável
+activíssimo, ativíssimo
+acto, ato
+actor, ator
+actor-encenador, ator-encenador
+actriz, atriz
+actuador, atuador
+actual, atual
+actualidade, atualidade
+actualismo, atualismo
+actualista, atualista
+actualizado, atualizado
+actualizador, atualizador
+actualizante, atualizante
+actualizar, atualizar
+actualização, atualização
+actualizável, atualizável
+actualmente, atualmente
+actualíssimo, atualíssimo
+actuante, atuante
+actuar, atuar
+actuariado, atuariado
+actuarial, atuarial
+actuação, atuação
+actuosamente, atuosamente
+actuosidade, atuosidade
+actuoso, atuoso
+actuária, atuária
+actuário, atuário
+actuável, atuável
+acupunctor, acupuntor
+acupunctura, acupuntura
+acupuncturador, acupunturador
+acupunctural, acupuntural
+acupuncturar, acupunturar
+acupuncturação, acupunturação
+acutiboia, acutibóia
+acutimboia, acutimbóia
+acção, ação
+ad-rectal, ad-retal
+adenoide, adenóide
+adjectivado, adjetivado
+adjectival, adjetival
+adjectivalização, adjetivalização
+adjectivamente, adjetivamente
+adjectivamento, adjetivamento
+adjectivar, adjetivar
+adjectivação, adjetivação
+adjectividade, adjetividade
+adjectivo, adjetivo
+adjectivo-particípio, adjetivo-particípio
+adjectivável, adjetivável
+adjecto, adjeto
+adjecção, adjeção
+adocianismo, adopcianismo
+adociano, adopciano
+adocionismo, adopcionismo
+adoptado, adotado
+adoptante, adotante
+adoptar, adotar
+adoptação, adotação
+adoptiva, adotiva
+adoptivamente, adotivamente
+adoptivo, adotivo
+adoptável, adotável
+adopção, adoção
+aeroide, aeróide
+afeccional, afecional
+afeccionalidade, afecionalidade
+afectada, afetada
+afectadamente, afetadamente
+afectado, afetado
+afectador, afetador
+afectante, afetante
+afectar, afetar
+afectativo, afetativo
+afectação, afetação
+afectivamente, afetivamente
+afectividade, afetividade
+afectivo, afetivo
+afecto, afeto
+afectuosamente, afetuosamente
+afectuosidade, afetuosidade
+afectuoso, afetuoso
+afectável, afetável
+afectível, afetível
+afecção, afeção
+afiláctico, afilático
+aftoide, aftóide
+agatoide, agatóide
+agnostozoico, agnostozóico
+agro-alimentar, agroalimentar
+agro-ambiental, agroambiental
+agro-florestal, agroflorestal
+agro-industrial, agroindustrial
+agro-indústria, agroindústria
+agro-pecuária, agropecuária
+agro-pecuário, agropecuário
+agro-químico, agroquímico
+agro-turismo, agroturismo
+ajudante de campo, ajudante-de-campo
+ajudante de ordens, ajudante-de-ordens
+alantoide, alantóide
+alboio, albóio
+albuminoide, albuminóide
+alcalino-gasoso, alcalinogasoso
+alcalino-terroso, alcalinoterroso
+alcaloide, alcalóide
+alfinete de ama, alfinete-de-ama
+algodão das laranjeiras, algodão-das-laranjeiras
+algodão das oliveiras, algodão-das-oliveiras
+algodão de vidro, algodão-de-vidro
+algodão em rama, algodão-em-rama
+algoide, algóide
+alisfenoide, alisfenóide
+alma do padeiro, alma-do-padeiro
+almorroida, almorróida
+almécega do brasil, almécega-do-brasil
+alocroico, alocróico
+ama de leite, ama-de-leite
+ameboide, amebóide
+ameboides, amebóides
+amiantoide, amiantóide
+amiboide, amibóide
+amiboides, amibóides
+amigo da onça, amigo-da-onça
+amiloide, amilóide
+amiotáctico, amiotático
+amonoide, amonóide
+amonoides, amonóides
+amplectivo, ampletivo
+anabaptismo, anabatismo
+anabaptista, anabatista
+anafiláctico, anafilático
+anapnoico, anapnóico
+anaptíctico, anaptítico
+anarco-sindicalista, anarcossindicalista
+anciloide, ancilóide
+anciroide, anciróide
+andrenoide, andrenóide
+androginoide, androginóide
+androide, andróide
+androléptico, androlético
+anecoico, anecóico
+anelectródio, aneletródio
+aneléctrico, anelétrico
+aneléctrodo, anelétrodo
+anepiploico, anepiplóico
+aneroide, aneróide
+aneuploide, aneuplóide
+anfiboloide, anfibolóide
+angiectático, angietático
+angu de caroço, angu-de-caroço
+anguiloide, anguilóide
+anictérico, anitérico
+anjo da guarda, anjo-da-guarda
+anoréctico, anorético
+antasfíctico, antasfítico
+anteacto, anteato
+anteprojecto, anteprojeto
+anteroide, anteróide
+anterozoide, anterozóide
+anti-heroico, anti-heróico
+anti-ictérico, anti-itérico
+anti-infecciosamente, anti-infeciosamente
+anti-infeccioso, anti-infecioso
+anti-racional, antirracional
+anti-racionalismo, antirracionalismo
+anti-racionalista, antirracionalista
+anti-racismo, antirracismo
+anti-racista, antirracista
+anti-raquítico, antirraquítico
+anti-real, antirreal
+anti-realismo, antirrealismo
+anti-realista, antirrealista
+anti-reflexo, antirreflexo
+anti-reformismo, antirreformismo
+anti-reformista, antirreformista
+anti-regionalista, antirregionalista
+anti-regionalização, antirregionalização
+anti-regiões, antirregiões
+anti-regulamentar, antirregulamentar
+anti-religioso, antirreligioso
+anti-republicana, antirrepublicana
+anti-republicanismo, antirrepublicanismo
+anti-republicano, antirrepublicano
+anti-ressonância, antirressonância
+anti-retroviral, antirretroviral
+anti-reumatismal, antirreumatismal
+anti-reumático, antirreumático
+anti-revisionismo, antirrevisionismo
+anti-revisionista, antirrevisionista
+anti-revolucionária, antirrevolucionária
+anti-revolucionário, antirrevolucionário
+anti-revolução, antirrevolução
+anti-roubo, antirroubo
+anti-rugas, antirrugas
+anti-rábico, antirrábico
+anti-salazarista, antissalazarista
+anti-semita, antissemita
+anti-semitismo, antissemitismo
+anti-semítico, antissemítico
+anti-sepsia, antissepsia
+anti-sepsiador, antissepsiador
+anti-sepsiar, antissepsiar
+anti-sezonático, antissezonático
+anti-sialagogo, antissialagogo
+anti-sida, antissida
+anti-sifilítico, antissifilítico
+anti-sigma, antissigma
+anti-simbólico, antissimbólico
+anti-sinodal, antissinodal
+anti-sistema, antissistema
+anti-siálico, antissiálico
+anti-social, antissocial
+anti-socialismo, antissocialismo
+anti-socialista, antissocialista
+anti-sociável, antissociável
+anti-sofista, antissofista
+anti-soro, antissoro
+anti-soviético, antissoviético
+anti-submarino, antissubmarino
+anti-subversão, antissubversão
+anti-sudoral, antissudoral
+anti-sudorífico, antissudorífico
+anti-sátira, antissátira
+anti-séptico, antisséptico, antissético
+anti-sísmico, antissísmico
+antiapopléctico, antiapoplético
+antiatáctico, antiatático
+anticaquéctico, anticaquético
+anticepticismo, anticeticismo
+anticoncecional, anticoncepcional
+anticonceptivo, anticoncetivo
+anticéptico, anticético
+antiepiléptico, antiepilético
+antiferroelectricidade, antiferroeletricidade
+antiferroeléctrico, antiferroelétrico
+antimetaléptico, antimetalético
+antipráctico, antiprático
+antracoide, antracóide
+antropoide, antropóide
+antropotáctico, antropotático
+antropozoico, antropozóico
+antárctia, antártia
+antárctico, antártico
+anóptico, anótico
+aperceptibilidade, apercetibilidade
+aperceptivo, apercetivo
+aperceptível, apercetível
+apercepção, aperceção
+apocalipticismo, apocaliticismo
+apocalíptico, apocalítico
+apodíctica, apodítica
+apodíctico, apodítico
+apomíctico, apomítico
+apopléctico, apoplético
+aposséptico, apossético
+apotáctico, apotático
+apráctico, aprático
+aquapunctura, aquapuntura
+aquapuncturar, aquapunturar
+araboia, arabóia
+aracnoide, aracnóide
+araraboia, ararabóia
+araramboia, ararambóia
+arazoia, arazóia
+araçoia, araçóia
+arco da aliança, arco-da-aliança
+arco da chuva, arco-da-chuva
+arco de deus, arco-de-deus
+arctícola, artícola
+arefacção, arefação
+argiloide, argilóide
+aritenoide, aritenóide
+arqueozoico, arqueozóico
+arqui-rabino, arquirrabino
+arqui-rival, arquirrival
+arqui-rivalidade, arquirrivalidade
+arqui-sacerdote, arquissacerdote
+arqui-secular, arquissecular
+arqui-senescal, arquissenescal
+arqui-sinagoga, arquissinagoga
+arqui-sistro, arquissistro
+arqui-sofista, arquissofista
+arqui-sátrapa, arquissátrapa
+arqui-são, arquissão
+arquitecta, arquiteta
+arquitectar, arquitetar
+arquitectação, arquitetação
+arquitecto, arquiteto
+arquitectonicamente, arquitetonicamente
+arquitectonografia, arquitetonografia
+arquitectonográfico, arquitetonográfico
+arquitectonógrafo, arquitetonógrafo
+arquitector, arquitetor
+arquitectura, arquitetura
+arquitectural, arquitetural
+arquitecturismo, arquiteturismo
+arquitecturista, arquiteturista
+arquitectável, arquitetável
+arquitectónica, arquitetónica
+arquitectónico, arquitetónico
+arroz de cuxá, arroz-de-cuxá
+arruda dos muros, arruda-dos-muros
+asbestoide, asbestóide
+aspecto, aspeto
+asplenioide, asplenióide
+assimptota, assintota
+assimptotismo, assintotismo
+assimptótico, assintótico
+assintáctico, assintático
+assumpcionista, assuncionista
+asséptico, assético
+asteroide, asteróide
+astragaloide, astragalóide
+astroide, astróide
+atloide, atlóide
+atractivamente, atrativamente
+atractividade, atratividade
+atractivo, atrativo
+atracção, atração
+aurifactório, aurifatório
+auto de fé, auto-de-fé
+auto-abastecer, autoabastecer
+auto-acusação, autoacusação
+auto-adesivo, autoadesivo
+auto-administrar, autoadministrar
+auto-administração, autoadministração
+auto-administrável, autoadministrável
+auto-admiração, autoadmiração
+auto-ajuda, autoajuda
+auto-análise, autoanálise
+auto-aplicável, autoaplicável
+auto-avaliação, autoavaliação
+auto-educativo, autoeducativo
+auto-educação, autoeducação
+auto-elogio, autoelogio
+auto-emprego, autoemprego
+auto-endireitável, autoendireitável
+auto-escada, autoescada
+auto-escola, autoescola
+auto-estima, autoestima
+auto-estrada, autoestrada
+auto-excitar, autoexcitar
+auto-excitação, autoexcitação
+auto-excluir, autoexcluir
+auto-executável, autoexecutável
+auto-imagem, autoimagem
+auto-imposição, autoimposição
+auto-imposto, autoimposto
+auto-imune, autoimune
+auto-imunidade, autoimunidade
+auto-imunização, autoimunização
+auto-inculpação, autoinculpação
+auto-indulgente, autoindulgente
+auto-indulgência, autoindulgência
+auto-indução, autoindução
+auto-infecção, autoinfeção
+auto-intitulado, autointitulado
+auto-intoxicação, autointoxicação
+auto-radiografia, autorradiografia
+auto-radiográfico, autorradiográfico
+auto-referencial, autorreferencial
+auto-reflexão, autorreflexão
+auto-regulador, autorregulador
+auto-regulação, autorregulação
+auto-retrato, autorretrato
+auto-rádio, autorrádio
+auto-satisfação, autossatisfação
+auto-serviço, autosserviço
+auto-suficiente, autossuficiente
+auto-suficiência, autossuficiência
+auto-sugestionar, autossugestionar
+auto-sugestionável, autossugestionável
+auto-sugestão, autossugestão
+auto-suspender, autossuspender
+auto-suspenso, autossuspenso
+auto-sustentável, autossustentável
+autocorrectivo, autocorretivo
+autocorrector, autocorretor
+autocorrecção, autocorreção
+autodidacta, autodidata
+autodidacticamente, autodidaticamente
+autodidactismo, autodidatismo
+autodidáctica, autodidática
+autodidáctico, autodidático
+autoprojector, autoprojetor
+autoprojecção, autoprojeção
+autoprotecção, autoproteção
+autotractor, autotrator
+axifoide, axifóide
+axoide, axóide
+azeite de cheiro, azeite-de-cheiro
+azeite de pau, azeite-de-pau
+azoico, azóico
+azuloio, azulóio
+açúcar de madeira, açúcar-de-madeira
+baba de camelo, baba-de-camelo
+baba de moça, baba-de-moça
+bairro de lata, bairro-de-lata
+balanoide, balanóide
+balsamoide, balsamóide
+balão de ensaio, balão-de-ensaio
+banaboia, banabóia
+baptismal, batismal
+baptismo, batismo
+baptista, batista
+baptistino, batistino
+baptistério, batistério
+baptizado, batizado
+baptizamento, batizamento
+baptizando, batizando
+baptizante, batizante
+baptizar, batizar
+baptizo, batizo
+barba de baleia, barba-de-baleia
+barca de ouro, barca-de-ouro
+barotáctico, barotático
+barriga de bicho, barriga-de-bicho
+barriga de freira, barriga-de-freira
+basiopinacoide, basiopinacóide
+basipinacoide, basipinacóide
+batracoide, batracóide
+beijo de moça, beijo-de-moça
+belemnoide, belemnóide
+belonoide, belonóide
+benzoico, benzóico
+beroide, beróide
+betoia, betóia
+bibliofiláctico, bibliofilático
+bicaracterística, bicaraterística
+bicha de rabear, bicha-de-rabear
+bicha de sete cabeças, bicha-de-sete-cabeças
+bicho de sete cabeças, bicho-de-sete-cabeças
+bicho do buraco, bicho-do-buraco
+bicho do mato, bicho-do-mato
+bicho do ouvido, bicho-do-ouvido
+bico de gavião, bico-de-gavião
+bico de gás, bico-de-gás
+bico de mocho, bico-de-mocho
+bico de obra, bico-de-obra
+bico de pato, bico-de-pato
+bidireccional, bidirecional
+bife de caneca, bife-de-caneca
+bijecção, bijeção
+bilhete de identidade, bilhete-de-identidade
+bilhete de visita, bilhete-de-visita
+bioactividade, bioatividade
+bioactivo, bioativo
+biobjectividade, biobjetividade
+biobjectivo, biobjetivo
+biocoloide, biocolóide
+bioelectricidade, bioeletricidade
+bioeléctrico, bioelétrico
+bioflavonoide, bioflavonóide
+biotáctico, biotático
+birreactor, birreator
+birrefracção, birrefração
+bissector, bissetor
+bissectriz, bissetriz
+bissoide, bissóide
+blastoides, blastóides
+boca de favas, boca-de-favas
+boca de fogo, boca-de-fogo
+boca de incêndio, boca-de-incêndio
+boca de sino, boca-de-sino
+boca de siri, boca-de-siri
+boia, bóia
+boia-fria, bóia-fria
+boioçuboia, boioçubóia
+bola ao cesto, bola-ao-cesto
+bom de bico, bom-de-bico
+bota de elástico, bota-de-elástico
+botrioide, botrióide
+branco de baleia, branco-de-baleia
+braquicatalecto, braquicataleto
+braquicataléctico, braquicatalético
+braquioide, braquióide
+braquipinacoide, braquipinacóide
+braço de armas, braço-de-armas
+braço de ferro, braço-de-ferro
+bronquectásico, bronquetásico
+bronquectático, bronquetático
+bubonoide, bubonóide
+bálsamo do canadá, bálsamo-do-canadá
+cabeça de abóbora, cabeça-de-abóbora
+cabeça de alho chocho, cabeça-de-alho-chocho
+cabeça de asno, cabeça-de-asno
+cabeça de avelã, cabeça-de-avelã
+cabeça de burro, cabeça-de-burro
+cabeça de carneiro, cabeça-de-carneiro
+cabeça de cartaz, cabeça-de-cartaz
+cabeça de casal, cabeça-de-casal
+cabeça de cavalo, cabeça-de-cavalo
+cabeça de lista, cabeça-de-lista
+cabeça de motim, cabeça-de-motim
+cabeça de pau, cabeça-de-pau
+cabeça de ponte, cabeça-de-ponte
+cabeça de porco, cabeça-de-porco
+cabeça de secção, cabeça-de-secção
+cabeça de série, cabeça-de-série
+cabeça de tremoço, cabeça-de-tremoço
+cabeça de turco, cabeça-de-turco
+cabeça de vento, cabeça-de-vento
+cabeça no ar, cabeça-no-ar
+cabo de esquadra, cabo-de-esquadra
+cabo de guerra, cabo-de-guerra
+cacaboia, cacabóia
+cacto, cato
+cactoide, cactóide
+caixa de ar, caixa-de-ar
+caixa de música, caixa-de-música
+caixa de ressonância, caixa-de-ressonância
+caixa de rufo, caixa-de-rufo
+caixa de óculos, caixa-de-óculos
+caixa dos pirolitos, caixa-dos-pirolitos
+calamoide, calamóide
+calcoide, calcóide
+calefactor, calefator
+calefactório, calefatório
+calefacção, calefação
+caminho de ferro, caminho-de-ferro
+camisa de força, camisa-de-força
+camisa de forças, camisa-de-forças
+camisa de onze varas, camisa-de-onze-varas
+camisa de vénus, camisa-de-vénus
+camisa do pano, camisa-do-pano
+cana de roca, cana-de-roca
+canal da areia, canal-da-areia
+cancroide, cancróide
+canforoide, canforóide
+canto de cisne, canto-de-cisne
+canto do cisne, canto-do-cisne
+capa de chuva, capa-de-chuva
+capitão de bandeira, capitão-de-bandeira
+capitão de corveta, capitão-de-corveta
+capitão de fragata, capitão-de-fragata
+capitão de mar e guerra, capitão-de-mar-e-guerra
+caproico, capróico
+caquecticamente, caqueticamente
+caquéctico, caquético
+cara de pau, cara-de-pau
+caracterial, caraterial
+caracteristicamente, carateristicamente
+caracterizador, caraterizador
+caracterizadora, caraterizadora
+caracterizante, caraterizante
+caracterizar, caraterizar
+caracterização, caraterização
+caracterizável, caraterizável
+caracterológico, caraterológico
+característica, caraterística
+característico, caraterístico
+carcinoide, carcinóide
+cardioide, cardióide
+cardiopunctura, cardiopuntura
+cardiorréctico, cardiorrético
+carne de sol, carne-de-sol
+carotenoide, carotenóide
+carreira de tiro, carreira-de-tiro
+carta de prego, carta-de-prego
+cartão de visita, cartão-de-visita
+carácter, caráter
+casca de noz, casca-de-noz
+catabaptismo, catabatismo
+catabaptista, catabatista
+catafiláctico, catafilático
+catalecto, cataleto
+cataléctico, catalético
+catarréctico, catarrético
+catenoide, catenóide
+cavalo de batalha, cavalo-de-batalha
+cavalo de frisa, cavalo-de-frisa
+cavalo do cão, cavalo-do-cão
+cefaloide, cefalóide
+celuloide, celulóide
+cenozoico, cenozóico
+centro de mesa, centro-de-mesa
+cepticismo, ceticismo
+ceptro, cetro
+ceptrífero, cetrífero
+ceptrígero, cetrígero
+ceratoide, ceratóide
+cerebroide, cerebróide
+ceroide, ceróide
+cestoide, cestóide
+chacoina, chacóina
+chapéu de chuva, chapéu-de-chuva
+chapéu de sol, chapéu-de-sol
+chefe de fila, chefe-de-fila
+chirimoia, chirimóia
+ciamoide, ciamóide
+cianoide, cianóide
+ciatoide, ciatóide
+cicloide, ciclóide
+cicnoide, cicnóide
+cilindroide, cilindróide
+cinoréctico, cinorético
+circunspeccionar, circunspecionar
+circunspectamente, circunspetamente
+circunspecto, circunspeto
+circunspecção, circunspeção
+cirroide, cirróide
+cirsoide, cirsóide
+cissoide, cissóide
+cisticercoide, cisticercóide
+cistiocercoide, cistiocercóide
+cistioide, cistióide
+cistoide, cistóide
+citofiláctico, citofilático
+citoide, citóide
+citopéctico, citopético
+cióptico, ciótico
+claraboia, clarabóia
+clidorréctico, clidorrético
+clinoide, clinóide
+clinopinacoide, clinopinacóide
+co-acusado, coacusado
+co-administrador, coadministrador
+co-administradora, coadministradora
+co-administrar, coadministrar
+co-administração, coadministração
+co-aluno, coaluno
+co-apóstolo, coapóstolo
+co-arguida, coarguida
+co-arguido, coarguido
+co-arrendador, coarrendador
+co-arrendamento, coarrendamento
+co-arrendar, coarrendar
+co-arrendatária, coarrendatária
+co-arrendatário, coarrendatário
+co-associado, coassociado
+co-autor, coautor
+co-autora, coautora
+co-autoria, coautoria
+co-credor, cocredor
+co-credora, cocredora
+co-criador, cocriador
+co-criadora, cocriadora
+co-delinquente, codelinquente
+co-delinquir, codelinquir
+co-delinquência, codelinquência
+co-demandante, codemandante
+co-demandista, codemandista
+co-descobridor, codescobridor
+co-detentor, codetentor
+co-devedor, codevedor
+co-devedora, codevedora
+co-dialecto, codialeto
+co-director, codiretor
+co-directora, codiretora
+co-direcção, codireção
+co-dirigir, codirigir
+co-dominante, codominante
+co-dominância, codominância
+co-donatário, codonatário
+co-editar, coeditar
+co-eleitor, coeleitor
+co-eremita, coeremita
+co-esposa, coesposa
+co-esposo, coesposo
+co-eternidade, coeternidade
+co-eterno, coeterno
+co-evangelista, coevangelista
+co-fiador, cofiador
+co-fiadora, cofiadora
+co-financiado, cofinanciado
+co-financiador, cofinanciador
+co-financiadora, cofinanciadora
+co-financiamento, cofinanciamento
+co-financiar, cofinanciar
+co-fundador, cofundador
+co-gerente, cogerente
+co-gerir, cogerir
+co-gerência, cogerência
+co-gestão, cogestão
+co-igual, coigual
+co-incineradora, coincineradora
+co-incinerar, coincinerar
+co-incineração, coincineração
+co-inquilino, coinquilino
+co-interessado, cointeressado
+co-latitude, colatitude
+co-legado, colegado
+co-legatária, colegatária
+co-legatário, colegatário
+co-legislativo, colegislativo
+co-leitor, coleitor
+co-licitante, colicitante
+co-litigante, colitigante
+co-litigar, colitigar
+co-litigação, colitigação
+co-logaritmo, cologaritmo
+co-mediador, comediador
+co-obrigado, coobrigado
+co-obrigar, coobrigar
+co-ocorrente, coocorrente
+co-ocorrência, coocorrência
+co-ocupante, coocupante
+co-opositor, coopositor
+co-organizado, coorganizado
+co-parceiro, coparceiro
+co-participante, coparticipante
+co-participar, coparticipar
+co-participação, coparticipação
+co-patrocinador, copatrocinador
+co-piloto, copiloto
+co-presidente, copresidente
+co-presidência, copresidência
+co-principado, coprincipado
+co-procurador, coprocurador
+co-produtor, coprodutor
+co-produtora, coprodutora
+co-produzir, coproduzir
+co-produção, coprodução
+co-propriedade, copropriedade
+co-proprietária, coproprietária
+co-proprietário, coproprietário
+co-protector, coprotetor
+co-príncipe, copríncipe
+co-redactor, corredator
+co-redentor, corredentor
+co-redenção, corredenção
+co-referente, correferente
+co-referência, correferência
+co-regente, corregente
+co-regência, corregência
+co-responsabilidade, corresponsabilidade
+co-responsabilizar, corresponsabilizar
+co-responsabilização, corresponsabilização
+co-responsável, corresponsável
+co-ré, corré
+co-réu, corréu
+co-secante, cossecante
+co-seno, cosseno
+co-signatária, cossignatária
+co-signatário, cossignatário
+co-tangente, cotangente
+co-texto, cotexto
+co-tutela, cotutela
+co-tutor, cotutor
+co-tutora, cotutora
+co-utente, coutente
+co-variante, covariante
+co-vendedor, covendedor
+co-vidente, covidente
+coactar, coatar
+coactivamente, coativamente
+coactividade, coatividade
+coactivo, coativo
+coactor, coator
+coactora, coatora
+coacção, coação
+coanoide, coanóide
+coarctada, coartada
+coarctar, coartar
+coarctativo, coartativo
+coarctação, coartação
+cofactor, cofator
+coia, cóia
+coio, cóio
+coleccionador, colecionador
+coleccionadora, colecionadora
+coleccionar, colecionar
+coleccionação, colecionação
+coleccionismo, colecionismo
+coleccionista, colecionista
+coleccionável, colecionável
+coleccionístico, colecionístico
+colecta, coleta
+colectar, coletar
+colectivamente, coletivamente
+colectividade, coletividade
+colectivismo, coletivismo
+colectivista, coletivista
+colectivizar, coletivizar
+colectivização, coletivização
+colectivo, coletivo
+colectivístico, coletivístico
+colector, coletor
+colectora, coletora
+colectoria, coletoria
+colectário, coletário
+colectável, coletável
+colectânea, coletânea
+colectâneo, coletâneo
+colectício, coletício
+colecção, coleção
+colete de forças, colete-de-forças
+coloide, colóide
+colopéctico, colopético
+colorrectite, colorretite
+comboia, combóia
+comida de urso, comida-de-urso
+comprotector, comprotetor
+concecional, concepcional
+concecionário, concepcionário
+conceptaculífero, concetaculífero
+conceptibilidade, concetibilidade
+conceptismo, concetismo
+conceptista, concetista
+conceptiva, concetiva
+conceptividade, concetividade
+conceptivo, concetivo
+conceptual, concetual
+conceptualismo, concetualismo
+conceptualista, concetualista
+conceptualizar, concetualizar
+conceptualização, concetualização
+conceptualmente, concetualmente
+conceptualístico, concetualístico
+conceptáculo, concetáculo
+conceptístico, concetístico
+conceptível, concetível
+concepção, conceção
+conchoide, conchóide
+concoide, concóide
+condiloide, condilóide
+condroide, condróide
+conectividade, conetividade
+conectivo, conetivo
+conector, conetor
+confeccionador, confecionador
+confeccionar, confecionar
+confeccionável, confecionável
+confecção, confeção
+conjectura, conjetura
+conjecturabilidade, conjeturabilidade
+conjecturador, conjeturador
+conjectural, conjetural
+conjecturalmente, conjeturalmente
+conjecturante, conjeturante
+conjecturar, conjeturar
+conjecturista, conjeturista
+conjecturável, conjeturável
+conjectânea, conjetânea
+conoide, conóide
+conquilioide, conquilióide
+conspecção, conspeção
+consumptibilidade, consuntibilidade
+consumptivo, consuntivo
+consumptor, consuntor
+consumptível, consuntível
+consumpção, consunção
+conto da carochinha, conto-da-carochinha
+conto do vigário, conto-do-vigário
+contra-documento, contradocumento
+contra-emboscada, contraemboscada
+contra-emergentes, contraemergentes
+contra-erva, contraerva
+contra-escarpa, contraescarpa
+contra-escota, contraescota
+contra-escritura, contraescritura
+contra-espionagem, contraespionagem
+contra-estai, contraestai
+contra-estais, contraestais
+contra-estimulante, contraestimulante
+contra-estimular, contraestimular
+contra-estimulação, contraestimulação
+contra-estimulismo, contraestimulismo
+contra-estimulista, contraestimulista
+contra-estímulo, contraestímulo
+contra-indicado, contraindicado
+contra-indicar, contraindicar
+contra-indicação, contraindicação
+contra-informar, contrainformar
+contra-informação, contrainformação
+contra-interpelação, contrainterpelação
+contra-interrogatório, contrainterrogatório
+contra-natura, contranatura
+contra-ofensiva, contraofensiva
+contra-oferta, contraoferta
+contra-oitava, contraoitava
+contra-ordem, contraordem
+contra-ordenacional, contraordenacional
+contra-ordenar, contraordenar
+contra-ordenação, contraordenação
+contra-rampa, contrarrampa
+contra-rancho, contrarrancho
+contra-rapante, contrarrapante
+contra-rapantes, contrarrapantes
+contra-reacção, contrarreação
+contra-regra, contrarregra
+contra-regulador, contrarregulador
+contra-relógio, contrarrelógio
+contra-reparo, contrarreparo
+contra-repto, contrarrepto
+contra-resposta, contrarresposta
+contra-retábulo, contrarretábulo
+contra-revolta, contrarrevolta
+contra-revolucionar, contrarrevolucionar
+contra-revolucionária, contrarrevolucionária
+contra-revolucionário, contrarrevolucionário
+contra-revolução, contrarrevolução
+contra-roda, contrarroda
+contra-rotura, contrarrotura
+contra-ruptura, contrarrutura
+contra-réplica, contrarréplica
+contra-safra, contrassafra
+contra-seguro, contrasseguro
+contra-selar, contrasselar
+contra-selo, contrasselo
+contra-senha, contrassenha
+contra-senso, contrassenso
+contra-significação, contrassignificação
+contra-sinal, contrassinal
+contra-sujeito, contrassujeito
+contra-édito, contraédito
+contraceptivo, contracetivo
+contracepção, contraceção
+contractilidade, contratilidade
+contractivo, contrativo
+contracto, contrato
+contractura, contratura
+contracturante, contraturante
+contractível, contratível
+contracção, contração
+contrafactor, contrafator
+contrafacção, contrafação
+contraprojecto, contraprojeto
+contráctil, contrátil
+convector, convetor
+convolvuloide, convolvulóide
+coqueluchoide, coqueluchóide
+cor de laranja, cor-de-laranja
+cor de vinho, cor-de-vinho
+coracoide, coracóide
+coraloide, coralóide
+corioide, corióide
+coroide, coróide
+coronoide, coronóide
+corpo a corpo, corpo-a-corpo
+correccional, correcional
+correccionalmente, correcionalmente
+correctamente, corretamente
+correctismo, corretismo
+correctivamente, corretivamente
+correctivo, corretivo
+correcto, correto
+corrector, corretor
+correctora, corretora
+correctoria, corretoria
+correctriz, corretriz
+correctório, corretório
+correcção, correção
+correspectivo, correspetivo
+corticoide, corticóide
+corticosteroide, corticosteróide
+cotiloide, cotilóide
+couve-de-saboia, couve-de-sabóia
+cova do ladrão, cova-do-ladrão
+coáctil, coátil
+cranioide, cranióide
+cravagem do centeio, cravagem-do-centeio
+cretinoide, cretinóide
+cricoide, cricóide
+crinoide, crinóide
+crioceroide, crioceróide
+criptozoico, criptozóico
+cristaleléctrico, cristalelétrico
+cristaloide, cristalóide
+criticoide, criticóide
+croia, cróia
+crotaloide, crotalóide
+ctenoide, ctenóide
+cuboide, cubóide
+cujubiboia, cujubibóia
+curral de trapiche, curral-de-trapiche
+cururuboia, cururubóia
+cutirreacção, cutirreação
+câmara de ar, câmara-de-ar
+céptica, cética
+céptico, cético
+céu da boca, céu-da-boca
+dacrioide, dacrióide
+dactilar, datilar
+dactiliográfico, datiliográfico
+dactiliologia, datiliologia
+dactiliológico, datiliológico
+dactiliomântico, datiliomântico
+dactiliólogo, datiliólogo
+dactilofasia, datilofasia
+dactilografado, datilografado
+dactilografar, datilografar
+dactilografia, datilografia
+dactilograficamente, datilograficamente
+dactilograma, datilograma
+dactilográfico, datilográfico
+dactiloide, dactilóide
+dactilologia, datilologia
+dactilológico, datilológico
+dactilomante, datilomante
+dactilomântico, datilomântico
+dactilonomia, datilonomia
+dactiloscopia, datiloscopia
+dactiloscópico, datiloscópico
+dactiloteca, datiloteca
+dactilozoide, dactilozóide, datilozoide
+dactilozoário, datilozoário
+dactilógrafa, datilógrafa
+dactilógrafo, datilógrafo
+dactilólobo, datilólobo
+dactilóptero, datilóptero
+dança de são vito, dança-de-são-vito
+deadjectival, deadjetival
+dececionado, decepcionado
+dececionante, decepcionante
+dececionar, decepcionar
+dececionável, decepcionável
+deceptivo, decetivo
+decepção, deceção
+defectibilidade, defetibilidade
+defectividade, defetividade
+defectivo, defetivo
+defectuoso, defetuoso
+defectível, defetível
+defectório, defetório
+defecção, defeção
+deflectir, defletir
+deflectográfico, defletográfico
+deflectométrico, defletométrico
+deflector, defletor
+deflectível, defletível
+deflectógrafo, defletógrafo
+deflectómetro, defletómetro
+dejectar, dejetar
+dejecto, dejeto
+dejectório, dejetório
+dejecção, dejeção
+delfinoide, delfinóide
+deltoide, deltóide
+demo-liberal, demoliberal
+demo-liberalismo, demoliberalismo
+dendroide, dendróide
+dente de coelho, dente-de-coelho
+dentes de lobo, dentes-de-lobo
+dentes de serra, dentes-de-serra
+dermatoide, dermatóide
+dermoide, dermóide
+dermoprotector, dermoprotetor
+desactivado, desativado
+desactivar, desativar
+desactivação, desativação
+desactualizado, desatualizado
+desactualizar, desatualizar
+desactualização, desatualização
+desafectadamente, desafetadamente
+desafectado, desafetado
+desafectar, desafetar
+desafectação, desafetação
+desafecto, desafeto
+desarquitectar, desarquitetar
+desbaptizar, desbatizar
+descaracterizado, descaraterizado
+descaracterizar, descaraterizar
+descaracterização, descaraterização
+descontracção, descontração
+deselectrizar, deseletrizar
+deselectrizável, deseletrizável
+desinfeccionar, desinfecionar
+desinfectador, desinfetador
+desinfectante, desinfetante
+desinfectar, desinfetar
+desinfectável, desinfetável
+desinfectório, desinfetório
+desinfecção, desinfeção
+desmoide, desmóide
+desmorréctico, desmorrético
+desprotecção, desproteção
+detectabilidade, detetabilidade
+detectar, detetar
+detectiva, detetiva
+detective, detetive
+detector, detetor
+detectável, detetável
+detecção, deteção
+detractivo, detrativo
+detractor, detrator
+detractora, detratora
+detracção, detração
+deíctico, deítico
+dia a dia, dia-a-dia
+dialectal, dialetal
+dialectalmente, dialetalmente
+dialecticamente, dialeticamente
+dialectismo, dialetismo
+dialectista, dialetista
+dialectizar, dialetizar
+dialectização, dialetização
+dialecto, dialeto
+dialectologia, dialetologia
+dialectologista, dialetologista
+dialectológico, dialetológico
+dialectólogo, dialetólogo
+dialéctica, dialética
+dialéctico, dialético
+diamantoide, diamantóide
+diapnoico, diapnóico
+dicataléctico, dicatalético
+dicroico, dicróico
+didacta, didata
+didacticamente, didaticamente
+didactismo, didatismo
+didactologia, didatologia
+didactológico, didatológico
+didáctica, didática
+didáctico, didático
+dielectricidade, dieletricidade
+dieléctrico, dielétrico
+difractar, difratar
+difractivo, difrativo
+difractómetro, difratómetro
+difracção, difração
+dilecto, dileto
+dilecção, dileção
+dinamoeléctrico, dinamoelétrico
+dioico, dióico
+diploico, diplóico
+diploide, diplóide
+dipnoico, dipnóico
+direccionabilidade, direcionabilidade
+direccionado, direcionado
+direccional, direcional
+direccionamento, direcionamento
+direccionar, direcionar
+direccionável, direcionável
+directa, direta
+directamente, diretamente
+directiva, diretiva
+directivo, diretivo
+directo, direto
+director, diretor
+director-adjunto, diretor-adjunto
+director-delegado, diretor-delegado
+director-desportivo, diretor-desportivo
+director-editor, diretor-editor
+director-executivo, diretor-executivo
+director-geral, diretor-geral
+director-proprietário, diretor-proprietário
+directora-executiva, diretora-executiva
+directora-geral, diretora-geral
+directorado, diretorado
+directoral, diretoral
+directoria, diretoria
+directorial, diretorial
+directriz, diretriz
+directório, diretório
+direcção, direção
+direcção-geral, direção-geral
+direcção-regional, direção-regional
+discoide, discóide
+disléctico, dislético
+disoréctico, disorético
+distractivo, distrativo
+distracção, distração
+distráctil, distrátil
+distáctico, distático
+dolicoide, dolicóide
+dêictico, dêitico
+ecfráctico, ecfrático
+eclecticamente, ecleticamente
+eclecticismo, ecleticismo
+eclectismo, ecletismo
+ecléctica, eclética
+ecléctico, eclético
+eclíptica, eclítica
+eclíptico, eclítico
+eco-eficiência, ecoeficiência
+eco-taxa, ecotaxa
+ecoico, ecóico
+edictal, edital
+edicto, edito
+edrioasteroides, edrioasteróides
+efectivador, efetivador
+efectivamente, efetivamente
+efectivar, efetivar
+efectivação, efetivação
+efectividade, efetividade
+efectivo, efetivo
+efectivável, efetivável
+efectuador, efetuador
+efectuar, efetuar
+efectuação, efetuação
+efectuoso, efetuoso
+efectuável, efetuável
+efectível, efetível
+efractura, efratura
+efracção, efração
+ejectar, ejetar
+ejector, ejetor
+ejectável, ejetável
+ejectólito, ejetólito
+ejecção, ejeção
+electivamente, eletivamente
+electividade, eletividade
+electivo, eletivo
+electracústica, eletracústica
+electrargol, eletrargol
+electrencefalografia, eletrencefalografia
+electrencefalograma, eletrencefalograma
+electrencefalográfico, eletrencefalográfico
+electrete, eletrete
+electrexecução, eletrexecução
+electricamente, eletricamente
+electricidade, eletricidade
+electricismo, eletricismo
+electricista, eletricista
+electrificador, eletrificador
+electrificar, eletrificar
+electrificação, eletrificação
+electrificável, eletrificável
+electrizador, eletrizador
+electrizante, eletrizante
+electrizar, eletrizar
+electrização, eletrização
+electrizável, eletrizável
+electroacústico, eletroacústico
+electrobalística, eletrobalística
+electrobiologia, eletrobiologia
+electrobiológico, eletrobiológico
+electrobomba, eletrobomba
+electrocardiografia, eletrocardiografia
+electrocardiograma, eletrocardiograma
+electrocardiográfico, eletrocardiográfico
+electrocardiógrafo, eletrocardiógrafo
+electrochoque, eletrochoque
+electrocinética, eletrocinética
+electrocinético, eletrocinético
+electrocirurgia, eletrocirurgia
+electrocoagulação, eletrocoagulação
+electrocultura, eletrocultura
+electrocussão, eletrocussão
+electrocutado, eletrocutado
+electrocutar, eletrocutar
+electrocutir, eletrocutir
+electrocutor, eletrocutor
+electrodeposição, eletrodeposição
+electrodiagnóstico, eletrodiagnóstico
+electrodinamismo, eletrodinamismo
+electrodinamómetro, eletrodinamómetro
+electrodinâmica, eletrodinâmica
+electrodinâmico, eletrodinâmico
+electrodiálise, eletrodiálise
+electrodoméstico, eletrodoméstico
+electroencefalografia, eletroencefalografia
+electroencefalograma, eletroencefalograma
+electroencefalográfico, eletroencefalográfico
+electroencefalógrafo, eletroencefalógrafo
+electrofisiologia, eletrofisiologia
+electrofisiológico, eletrofisiológico
+electrofone, eletrofone
+electroforese, eletroforese
+electroformação, eletroformação
+electrofotografia, eletrofotografia
+electrofotográfico, eletrofotográfico
+electrogalvanismo, eletrogalvanismo
+electrogalvânico, eletrogalvânico
+electrogenético, eletrogenético
+electrogerador, eletrogerador
+electrografia, eletrografia
+electrográfico, eletrográfico
+electrogéneo, eletrogéneo
+electrogénese, eletrogénese
+electrolisador, eletrolisador
+electrolisar, eletrolisar
+electrolisação, eletrolisação
+electrolisável, eletrolisável
+electrologia, eletrologia
+electroluminescente, eletroluminescente
+electroluminescência, eletroluminescência
+electrolítico, eletrolítico
+electrológico, eletrológico
+electromagnete, eletromagnete
+electromagnetismo, eletromagnetismo
+electromagnético, eletromagnético
+electromecânica, eletromecânica
+electromecânico, eletromecânico
+electromeopatia, eletromeopatia
+electrometalurgia, eletrometalurgia
+electrometalúrgico, eletrometalúrgico
+electrometria, eletrometria
+electromiografia, eletromiografia
+electromiograma, eletromiograma
+electromotor, eletromotor
+electromotriz, eletromotriz
+electrométrico, eletrométrico
+electromóvel, eletromóvel
+electronegatividade, eletronegatividade
+electronegativo, eletronegativo
+electronicamente, eletronicamente
+electropexia, eletropexia
+electropositividade, eletropositividade
+electropositivo, eletropositivo
+electropunctura, eletropunctura, eletropuntura
+electroquímica, eletroquímica
+electroquímico, eletroquímico
+electrorradiologia, eletrorradiologia
+electrorradiologista, eletrorradiologista
+electroscopia, eletroscopia
+electroscópico, eletroscópico
+electroscópio, eletroscópio
+electrossemáforo, eletrossemáforo
+electrosserra, eletrosserra
+electrossiderurgia, eletrossiderurgia
+electrossiderúrgico, eletrossiderúrgico
+electrossoldadura, eletrossoldadura
+electrostricção, eletrostrição
+electrostática, eletrostática
+electrostático, eletrostático
+electrotanásia, eletrotanásia
+electrotecnia, eletrotecnia
+electroterapeuta, eletroterapeuta
+electroterapia, eletroterapia
+electroterapêutica, eletroterapêutica
+electroterapêutico, eletroterapêutico
+electrotermia, eletrotermia
+electroterápico, eletroterápico
+electrotipia, eletrotipia
+electrotropia, eletrotropia
+electrotropismo, eletrotropismo
+electrotrópico, eletrotrópico
+electrotécnica, eletrotécnica
+electrotécnico, eletrotécnico
+electrotérmico, eletrotérmico
+electrotípico, eletrotípico
+electrotónico, eletrotónico
+electrovalente, eletrovalente
+electrovalência, eletrovalência
+electrovegetómetro, eletrovegetómetro
+electrovital, eletrovital
+electrovitalismo, eletrovitalismo
+electrozónio, eletrozónio
+electroíman, eletroíman
+electroóptica, eletro-ótica
+electroóptico, eletro-ótico
+electrão, eletrão
+electrão-volt, eletrão-volt
+electríman, eletríman
+electródio, eletródio
+electrófilo, eletrófilo
+electróforo, eletróforo
+electrógeno, eletrógeno
+electrógrafo, eletrógrafo
+electrólise, eletrólise
+electrólito, eletrólito
+electrómetro, eletrómetro
+electrónica, eletrónica
+electrónico, eletrónico
+electrónio, eletrónio
+electróptica, eletrótica
+electrótipo, eletrótipo
+elefantoide, elefantóide
+elipsoide, elipsóide
+elitroide, elitróide
+eléctrico, elétrico
+eléctrino, elétrino
+eléctrodo, elétrodo
+eléctron, elétron
+embrioide, embrióide
+encefaloide, encefalóide
+enguia-eléctrica, enguia-elétrica
+enterozoico, enterozóico
+entreacto, entreato
+enzoico, enzóico
+eozoico, eozóico
+epicicloide, epiciclóide
+epidermoide, epidermóide
+epileptoide, epileptóide
+epiléptica, epilética
+epiléptico, epilético
+epiploico, epiplóico
+epitelioide, epitelióide
+epizoico, epizóico
+equinoide, equinóide
+equinoides, equinóides
+equioide, equióide
+erectamente, eretamente
+erectida, eretida
+erectilidade, eretilidade
+erecto, ereto
+erector, eretor
+erecção, ereção
+eritemoide, eritemóide
+eritroide, eritróide
+eréctil, erétil
+escafoide, escafóide
+escarlatinoide, escarlatinóide
+escorpioide, escorpióide
+esfenoide, esfenóide
+esferoide, esferóide
+esméctico, esmético
+espectacular, espetacular
+espectacularidade, espetacularidade
+espectacularmente, espetacularmente
+espectaculosamente, espetaculosamente
+espectaculosidade, espetaculosidade
+espectaculoso, espetaculoso
+espectador, espetador
+espectadora, espetadora
+espectral, espetral
+espectralidade, espetralidade
+espectro, espetro
+espectrofobia, espetrofobia
+espectrofotometria, espetrofotometria
+espectrofotométrico, espetrofotométrico
+espectrofotómetro, espetrofotómetro
+espectrografia, espetrografia
+espectrograma, espetrograma
+espectrográfico, espetrográfico
+espectrologia, espetrologia
+espectrológico, espetrológico
+espectrometria, espetrometria
+espectrométrico, espetrométrico
+espectroscopia, espetroscopia
+espectroscopista, espetroscopista
+espectroscópico, espetroscópico
+espectroscópio, espetroscópio
+espectrógrafo, espetrógrafo
+espectrómetro, espetrómetro
+espectáculo, espetáculo
+espermatozoide, espermatozóide
+espiroide, espiróide
+esplenenfráctico, esplenenfrático
+esplenoide, esplenóide
+esplenopéctico, esplenopético
+espongioide, espongióide
+espuma do mar, espuma-do-mar
+esquistoide, esquistóide
+esquizoide, esquizóide
+estaminoide, estaminóide
+estatorreactor, estatorreator
+esteleroide, esteleróide
+esteroide, esteróide
+estiloide, estilóide
+estoica, estóica
+estoico, estóico
+estrongiloide, estrongilóide
+estupefactivo, estupefativo
+estupefactor, estupefator
+estupefacção, estupefação
+etanodioico, etanodióico
+etanoico, etanóico
+etmoide, etmóide
+euboico, eubóico
+eunucoide, eunucóide
+euploide, euplóide
+eurocepticismo, euroceticismo
+eurocéptica, eurocética
+eurocéptico, eurocético
+europtimismo, eurotimismo
+eutáctico, eutático
+ex-accionista, ex-acionista
+ex-director, ex-diretor
+ex-directora, ex-diretora
+ex-seleccionador, ex-selecionador
+exactamente, exatamente
+exactidão, exatidão
+exactificar, exatificar
+exactissimamente, exatissimamente
+exacto, exato
+exactor, exator
+exactoria, exatoria
+exactíssimo, exatíssimo
+exacção, exação
+excecional, excepcional
+excecionalidade, excepcionalidade
+excecionalmente, excepcionalmente
+excecionar, excepcionar
+excepta, exceta
+exceptivo, excetivo
+excepto, exceto
+exceptuador, excetuador
+exceptuar, excetuar
+exceptuável, excetuável
+excepção, exceção
+expectador, expetador
+expectadora, expetadora
+expectante, expetante
+expectantismo, expetantismo
+expectar, expetar
+expectativa, expetativa
+expectatório, expetatório
+expectação, expetação
+expectorante, expetorante
+expectorar, expetorar
+expectoração, expetoração
+expectável, expetável
+exteroceptivo, exterocetivo
+exteroceptor, exterocetor
+extra-escolar, extraescolar
+extra-estatutário, extraestatutário
+extra-europeu, extraeuropeu
+extra-ocular, extraocular
+extra-oficial, extraoficial
+extra-oficialmente, extraoficialmente
+extra-orgânico, extraorgânico
+extra-regimental, extrarregimental
+extra-regulamentar, extrarregulamentar
+extra-secular, extrassecular
+extra-sensorial, extrassensorial
+extra-sensorialidade, extrassensorialidade
+extra-sensível, extrassensível
+extra-sistólico, extrassistólico
+extra-sístole, extrassístole
+extra-urbano, extraurbano
+extra-uterino, extrauterino
+extractar, extratar
+extractiforme, extratiforme
+extractivo, extrativo
+extracto, extrato
+extractor, extrator
+extractora, extratora
+extracção, extração
+extrojecção, extrojeção
+extrospectivo, extrospetivo
+extrospecção, extrospeção
+faca de mato, faca-de-mato
+facoide, facóide
+factoide, factóide
+factor, fator
+factor-chave, fator-chave
+factorial, fatorial
+factorizar, fatorizar
+factura, fatura
+facturar, faturar
+facturação, faturação
+facturável, faturável
+facção, fação
+faloide, falóide
+fanerozoico, fanerozóico
+farinha de pau, farinha-de-pau
+fascistoide, fascistóide
+fato de banho, fato-de-banho
+fato de macaco, fato-de-macaco
+fato de saia e casaco, fato-de-saia-e-casaco
+fato de treino, fato-de-treino
+fava-do-egipto, fava-do-egito
+febre de malta, febre-de-malta
+febre dos fenos, febre-dos-fenos
+febre dos três dias, febre-dos-três-dias
+fecaloide, fecalóide
+feculoide, feculóide
+feldspatoide, feldspatóide
+ferrielectricidade, ferrieletricidade
+ferrieléctrico, ferrielétrico
+ferro de engomar, ferro-de-engomar
+ferro de romã, ferro-de-romã
+ferroelectricidade, ferroeletricidade
+ferroeléctrico, ferroelétrico
+fezes de ouro, fezes-de-ouro
+fibroide, fibróide
+ficoide, ficóide
+filho da terra, filho-da-terra
+filho de parida, filho-de-parida
+filocacto, filocato
+filoide, filóide
+filotáctico, filotático
+fim de semana, fim-de-semana
+fimatoide, fimatóide
+fio de prumo, fio-de-prumo
+fios de ovos, fios-de-ovos
+fiscal de linha, fiscal-de-linha
+fisoide, fisóide
+fitoide, fitóide
+fitotáctico, fitotático
+flavonoide, flavonóide
+flebopéctico, flebopético
+flectido, fletido
+flectir, fletir
+flector, fletor
+flectómetro, fletómetro
+flictena, flitena
+flictenoide, flictenóide
+flor de enxofre, flor-de-enxofre
+focinho de tenca, focinho-de-tenca
+fogo de artifício, fogo-de-artifício
+fogo de bengala, fogo-de-bengala
+fogo de santelmo, fogo-de-santelmo
+fogo de santo antão, fogo-de-santo-antão
+fogo de vista, fogo-de-vista
+fogo do ar, fogo-do-ar
+foia, fóia
+foide, fóide
+foio, fóio
+folha de flandres, folha-de-flandres
+folhos de sinhá, folhos-de-sinhá
+fonético-sintacticamente, fonético-sintaticamente
+fonético-sintáctico, fonético-sintático
+fora da lei, fora-da-lei
+fora de jogo, fora-de-jogo
+fotelectricidade, foteletricidade
+fotelectrão, foteletrão
+foteléctrico, fotelétrico
+foto-receptor, fotorrecetor
+fotodieléctrico, fotodielétrico
+fotoelectricidade, fotoeletricidade
+fotoelectrão, fotoeletrão
+fotoeléctrico, fotoelétrico
+fototactismo, fototatismo
+fototáctico, fototático
+fotóptico, fotótico
+fraccionamento, fracionamento
+fraccionar, fracionar
+fraccionário, fracionário
+fraccionável, fracionável
+fracciúncula, fraciúncula
+fractura, fratura
+fracturamento, fraturamento
+fracturante, fraturante
+fracturar, fraturar
+fracturável, fraturável
+fracção, fração
+fradinho da mão furada, fradinho-da-mão-furada
+fradinho de mão furada, fradinho-de-mão-furada
+frente a frente, frente-a-frente
+frutos do mar, frutos-do-mar
+fucoide, fucóide
+fula de gabu, fula-de-gabu
+funarioide, funarióide
+furcroia, furcróia
+fusoide, fusóide
+gabroico, gabróico
+gadoide, gadóide
+gaita de beiços, gaita-de-beiços
+gaita de foles, gaita-de-foles
+galactoide, galactóide
+galinsecto, galinseto
+galvanopunctura, galvanopuntura
+galvanotáctico, galvanotático
+gamozoide, gamozóide
+ganoide, ganóide
+gaspoia, gaspóia
+gastrepiploico, gastrepiplóico
+gastroepiploico, gastroepiplóico
+gastropéctico, gastropético
+gastrozoide, gastrozóide
+genuflectir, genufletir
+genuflector, genufletor
+genuflectora, genufletora
+geoide, geóide
+geotáctico, geotático
+gesso de paris, gesso-de-paris
+glenoide, glenóide
+glossoide, glossóide
+glucocorticoide, glucocorticóide
+gogoia, gogóia
+gonozoide, gonozóide
+grafioide, grafióide
+granitoide, granitóide
+grapsoide, grapsóide
+grecoide, grecóide
+groia, gróia
+grosso de nápoles, grosso-de-nápoles
+grupoide, grupóide
+guarda de corpo, guarda-de-corpo
+guarda-joias, guarda-jóias
+guarda-nocturno, guarda-noturno
+gás dos pântanos, gás-dos-pântanos
+haloide, halóide
+haploide, haplóide
+haptotactismo, haptotatismo
+haptotáctico, haptotático
+helicoide, helicóide
+heliotactismo, heliotatismo
+helmintoide, helmintóide
+hematoide, hematóide
+hematosséptico, hematossético
+hemiatáctico, hemiatático
+hemisferoide, hemisferóide
+hemoide, hemóide
+hemoptoico, hemoptóico
+hemorroida, hemorróida
+hemorroide, hemorróide
+hemorroides, hemorróides
+hemotéctico, hemotético
+hepatopéctico, hepatopético
+heroico, heróico
+heroide, heróide
+hetero-avaliação, heteroavaliação
+heteroide, heteróide
+heteroinfecção, heteroinfeção
+heterorréctico, heterorrético
+heterosséptico, heterossético
+heterotáctico, heterotático
+hialoide, hialóide
+hidatoide, hidatóide
+hidreléctrico, hidrelétrico
+hidroelectricidade, hidroeletricidade
+hidroeléctrica, hidroelétrica
+hidroeléctrico, hidroelétrico
+hidroextractor, hidroextrator
+hidrofráctico, hidrofrático
+hidroide, hidróide
+hidrotactismo, hidrotatismo
+hilozoico, hilozóico
+himenoide, himenóide
+hioide, hióide
+hiperactividade, hiperatividade
+hiperactivo, hiperativo
+hiperboloide, hiperbolóide
+hipercatalecto, hipercataleto
+hipercataléctico, hipercatalético
+hipercorrecto, hipercorreto
+hipercorrecção, hipercorreção
+hiperdialéctico, hiperdialético
+hipereutéctico, hipereutético
+hipeutéctico, hipeutético
+hipnoide, hipnóide
+hipocicloide, hipociclóide
+hipotáctico, hipotático
+hipozoico, hipozóico
+histeropéctico, histeropético
+holantárctico, holantártico
+holoturioide, holoturióide
+holozoico, holozóico
+homaloide, homalóide
+homeocatalecto, homeocataleto
+homeocataléctico, homeocatalético
+homeozoico, homeozóico
+homoide, homóide
+humanoide, humanóide
+icteroide, icteróide
+icterícia, iterícia
+ictioide, ictióide
+ictérica, itérica
+ictérico, itérico
+idielectricidade, idieletricidade
+idieléctrico, idielétrico
+idioeléctrico, idioelétrico
+idiolecto, idioleto
+ignipunctura, ignipuntura
+imperceptibilidade, impercetibilidade
+imperceptivelmente, impercetivelmente
+imperceptível, impercetível
+imperfectibilidade, imperfetibilidade
+imperfectivelmente, imperfetivelmente
+imperfectividade, imperfetividade
+imperfectivo, imperfetivo
+imperfectível, imperfetível
+imputrefacção, imputrefação
+imunoelectroforese, imunoeletroforese
+imunorreactivo, imunorreativo
+imunorreacção, imunorreação
+inactiva, inativa
+inactivamente, inativamente
+inactivar, inativar
+inactivação, inativação
+inactividade, inatividade
+inactivo, inativo
+inactual, inatual
+inacção, inação
+inadoptável, inadotável
+inafectivo, inafetivo
+incaracteristicamente, incarateristicamente
+incaracterizado, incaraterizado
+incaracterizável, incaraterizável
+incaracterístico, incaraterístico
+inconsumptibilidade, inconsuntibilidade
+incorrectamente, incorretamente
+incorrecto, incorreto
+incorrecção, incorreção
+indefectibilidade, indefetibilidade
+indefectivelmente, indefetivelmente
+indefectível, indefetível
+indetectável, indetetável
+indirecta, indireta
+indirectamente, indiretamente
+indirecto, indireto
+inefectivo, inefetivo
+inexactamente, inexatamente
+inexactidão, inexatidão
+inexacto, inexato
+inexacção, inexação
+infanto-juvenil, infantojuvenil
+infecciologia, infeciologia
+infecciologista, infeciologista
+infeccionado, infecionado
+infeccionar, infecionar
+infeccioso, infecioso
+infectada, infetada
+infectado, infetado
+infectante, infetante
+infectar, infetar
+infecto, infeto
+infecto-contagioso, infectocontagioso, infetocontagioso
+infectologia, infetologia
+infectológico, infetológico
+infectuosidade, infetuosidade
+infectável, infetável
+infecção, infeção
+inflectir, infletir
+inflicção, inflição
+info-alfabetização, infoalfabetização
+info-exclusão, infoexclusão
+info-excluído, infoexcluído
+infra-escapular, infraescapular
+infra-escavação, infraescavação
+infra-escrito, infraescrito
+infra-estrutura, infraestrutura
+infra-estruturado, infraestruturado
+infra-estrutural, infraestrutural
+infra-estruturação, infraestruturação
+infra-oitava, infraoitava
+infra-orbitário, infraorbitário
+infra-renal, infrarrenal
+infra-som, infrassom
+infractor, infrator
+infractora, infratora
+infracção, infração
+injectado, injetado
+injectador, injetador
+injectar, injetar
+injectiva, injetiva
+injectivo, injetivo
+injecto, injeto
+injector, injetor
+injectável, injetável
+injecção, injeção
+inobjectividade, inobjetividade
+inobjectável, inobjetável
+inopéctico, inopético
+insecticida, inseticida
+insecticídio, inseticídio
+insectiforme, insetiforme
+insecto, inseto
+insectologia, insetologia
+insectologista, insetologista
+insectológico, insetológico
+insectífero, insetífero
+insectívoro, insetívoro
+insectófilo, insetófilo
+inspeccionador, inspecionador
+inspeccionamento, inspecionamento
+inspeccionar, inspecionar
+inspeccionável, inspecionável
+inspectar, inspetar
+inspectivo, inspetivo
+inspector, inspetor
+inspector-adjunto, inspetor-adjunto
+inspector-geral, inspetor-geral
+inspector-orientador, inspetor-orientador
+inspectora, inspetora
+inspectora-geral, inspetora-geral
+inspectorado, inspetorado
+inspectoria, inspetoria
+inspectório, inspetório
+inspecção, inspeção
+inspecção-geral, inspeção-geral
+insurreccionado, insurrecionado
+insurreccional, insurrecional
+insurreccionalmente, insurrecionalmente
+insurreccionar, insurrecionar
+insurreccionismo, insurrecionismo
+insurreccionário, insurrecionário
+insurreccionável, insurrecionável
+insurrecta, insurreta
+insurrecto, insurreto
+insusceptível, insuscetível
+intactilidade, intatilidade
+intelecção, inteleção
+interaccionismo, interacionismo
+interactividade, interatividade
+interactivo, interativo
+interactuar, interatuar
+interacção, interação
+interceptado, intercetado
+interceptador, intercetador
+interceptadora, intercetadora
+interceptante, intercetante
+interceptar, intercetar
+interceptação, intercetação
+interceptivo, intercetivo
+intercepto, interceto
+interceptor, intercetor
+interceptora, intercetora
+interceptável, intercetável
+interceptório, intercetório
+intercepção, interceção
+interjeccional, interjecional
+interjeccionar, interjecionar
+interjectivamente, interjetivamente
+interjectivo, interjetivo
+interruptor, interrutor
+interruptora, interrutora
+interseccional, intersecional
+interseccionismo, intersecionismo
+intersectar, intersetar
+intersecção, interseção
+intersubjectividade, intersubjetividade
+intersubjectivo, intersubjetivo
+intra-específico, intraespecífico
+intra-ocular, intraocular
+intra-orgânico, intraorgânico
+intra-raquidiano, intrarraquidiano
+intra-secular, intrassecular
+intra-sinovial, intrassinovial
+intra-uterino, intrauterino
+intra-ósseo, intraósseo
+introito, intróito
+introjecção, introjeção
+introspeccionista, introspecionista
+introspectivamente, introspetivamente
+introspectivo, introspetivo
+introspecção, introspeção
+intuscepção, intusceção
+intuspectivamente, intuspetivamente
+intuspectivo, intuspetivo
+intuspecção, intuspeção
+intussuscepção, intussusceção
+intáctil, intátil
+inumectação, inumetação
+invectiva, invetiva
+invectivador, invetivador
+invectivante, invetivante
+invectivar, invetivar
+invectivista, invetivista
+invectivo, invetivo
+ipsiloide, ipsilóide
+iridorréctico, iridorrético
+irreflectidamente, irrefletidamente
+irreflectido, irrefletido
+irretractavelmente, irretratavelmente
+irretractável, irretratável
+irretroactividade, irretroatividade
+irretroactivo, irretroativo
+iseléctrico, iselétrico
+isocoloide, isocolóide
+isoelectrónico, isoeletrónico
+isoeléctrico, isoelétrico
+jabutiboia, jabutibóia
+jacto, jato
+jactoplanador, jatoplanador
+jaquiranaboia, jaquiranabóia
+jardim de infância, jardim-de-infância
+jaspoide, jaspóide
+jequitiranaboia, jequitiranabóia
+jiboia, jibóia
+jitiranaboia, jitiranabóia
+joia, jóia
+joina, jóina
+juiz de campo, juiz-de-campo
+juiz de linha, juiz-de-linha
+jurupariboia, juruparibóia
+lambdoide, lambdóide
+lambisgoia, lambisgóia
+leccionador, lecionador
+leccionando, lecionando
+leccionar, lecionar
+leccionação, lecionação
+leccionista, lecionista
+leccionário, lecionário
+leccionável, lecionável
+lectivo, letivo
+leite de cal, leite-de-cal
+lepidoide, lepidóide
+lepoide, lepóide
+limpa-para-brisa, limpa-pára-brisa
+limpa-para-brisas, limpa-pára-brisas
+linfoide, linfóide
+linha de água, linha-de-água
+lipoide, lipóide
+liquefactivo, liquefativo
+liquefactor, liquefator
+liquefacção, liquefação
+liquenoide, liquenóide
+lirioide, lirióide
+litoide, litóide
+loio, lóio
+loio-de-jardim, lóio-de-jardim
+loio-do-jardim, lóio-do-jardim
+lombricoide, lombricóide
+lua de mel, lua-de-mel
+lumbricoide, lumbricóide
+láctico, lático
+língua de gato, língua-de-gato
+língua de sogra, língua-de-sogra
+língua de trapos, língua-de-trapos
+língua de veado, língua-de-veado
+línguas de gato, línguas-de-gato
+maboia, mabóia
+macozoide, macozóide
+macro-jê, macrojê
+macro-tupi, macrotupi
+macropinacoide, macropinacóide
+madefacção, madefação
+magneteléctrico, magnetelétrico
+magnetoide, magnetóide
+maláctico, malático
+manga de alpaca, manga-de-alpaca
+manga de eixo, manga-de-eixo
+manufactor, manufator
+manufactora, manufatora
+manufactura, manufatura
+manufacturado, manufaturado
+manufacturador, manufaturador
+manufacturar, manufaturar
+manufacturação, manufaturação
+manufactureiro, manufatureiro
+manufacturável, manufaturável
+maquinofactura, maquinofatura
+marca de judas, marca-de-judas
+marco de colónia, marco-de-colónia
+maria da fonte, maria-da-fonte
+maria das pernas compridas, maria-das-pernas-compridas
+marido de bolas, marido-de-bolas
+marmita de gigante, marmita-de-gigante
+mastoide, mastóide
+maçã de adão, maçã-de-adão
+meadinha de ouro, meadinha-de-ouro
+medusoide, medusóide
+megaprojecto, megaprojeto
+meia de leite, meia-de-leite
+melocacto, melocato
+menina de cinco olhos, menina-de-cinco-olhos
+menina do olho, menina-do-olho
+meningocóccico, meningocócico
+meniscoide, meniscóide
+merozoito, merozóito
+mesa de cabeceira, mesa-de-cabeceira
+mesinha de cabeceira, mesinha-de-cabeceira
+mesorrecto, mesorreto
+mesozoico, mesozóico
+mestre de armas, mestre-de-armas
+mestre de cerimónias, mestre-de-cerimónias
+mestre de obras, mestre-de-obras
+metaloide, metalóide
+metaléptico, metalético
+metamorfóptico, metamorfótico
+metanoia, metanóia
+metapectina, metapetina
+metapéctico, metapético
+metazoico, metazóico
+meteoroide, meteoróide
+metrorréctico, metrorrético
+micetoide, micetóide
+micro-ondas, microondas
+micro-organismo, microorganismo
+microbjectiva, microbjetiva
+microelectrónica, microeletrónica
+mieloide, mielóide
+mineraloide, mineralóide
+mini-autocarro, miniautocarro
+mini-saia, minissaia
+mini-submarino, minissubmarino
+mini-série, minissérie
+mini-vestido, minivestido
+minoico, minóico
+mioide, mióide
+miopráctico, mioprático
+mirtoide, mirtóide
+mixoide, mixóide
+moia, móia
+molibdoide, molibdóide
+moloide, molóide
+moluscoide, moluscóide
+mongoloide, mongolóide
+monoico, monóico
+monoide, monóide
+monozoico, monozóico
+monte de vénus, monte-de-vénus
+morfossintáctico, morfossintático
+morte em pé, morte-em-pé
+moscas de milão, moscas-de-milão
+moto-serra, motosserra
+moço de forcado, moço-de-forcado
+mucoide, mucóide
+muirajiboia, muirajibóia
+mulher a dias, mulher-a-dias
+multidireccional, multidirecional
+multifactorial, multifatorial
+multinfecção, multinfeção
+multissectorial, multissetorial
+muscoide, muscóide
+mãe de aluguer, mãe-de-aluguer
+mãe de santo, mãe-de-santo
+mão de barca, mão-de-barca
+mão de judas, mão-de-judas
+mão de obra, mão-de-obra
+mórfico-sintáctico, mórfico-sintático
+narcisoide, narcisóide
+narcoléptico, narcolético
+nariz de cera, nariz-de-cera
+nautiloide, nautilóide
+nectozoide, nectozóide
+nefeloide, nefelóide
+nefroide, nefróide
+nefropéctico, nefropético
+negro de fumo, negro-de-fumo
+negroide, negróide
+nematoide, nematóide
+neo-escolástica, neoescolástica
+neo-escolástico, neoescolástico
+neo-eslavismo, neoeslavismo
+neo-estoicismo, neoestoicismo
+neo-estóico, neoestoico
+neo-expressionista, neoexpressionista
+neo-idealismo, neoidealismo
+neo-impressionismo, neoimpressionismo
+neo-impressionista, neoimpressionista
+neo-realismo, neorrealismo
+neo-realista, neorrealista
+neo-republicanismo, neorrepublicanismo
+neo-republicano, neorepublicano
+neo-romantismo, neorromantismo
+neo-romântica, neorromântica
+neo-romântico, neorromântico
+neo-socialismo, neossocialismo
+neo-árico, neoárico
+neo-ático, neoático
+neozoico, neozóico
+ninfoide, ninfóide
+nocturnal, noturnal
+nocturnamente, noturnamente
+nocturno, noturno
+nocturnos, noturnos
+noctívaga, notívaga
+noctívago, notívago
+noia, nóia
+nucleoide, nucleóide
+nó de adão, nó-de-adão
+obducto, obduto
+objectado, objetado
+objectal, objetal
+objectante, objetante
+objectar, objetar
+objectiva, objetiva
+objectivado, objetivado
+objectivador, objetivador
+objectivamente, objetivamente
+objectivar, objetivar
+objectivação, objetivação
+objectividade, objetividade
+objectivismo, objetivismo
+objectivista, objetivista
+objectivo, objetivo
+objectivável, objetivável
+objecto, objeto
+objectologia, objetologia
+objectologista, objetologista
+objectológico, objetológico
+objector, objetor
+objectora, objetora
+objectável, objetável
+objectólogo, objetólogo
+objecção, objeção
+obovoide, obovóide
+obstupefacção, obstupefação
+oco do coração, oco-do-coração
+octávia, otávia
+odontoide, odontóide
+oficial às ordens, oficial-às-ordens
+ofioide, ofióide
+oitavos de final, oitavos-de-final
+olfactar, olfatar
+olfactivamente, olfativamente
+olfactivo, olfativo
+olfacto, olfato
+olfactometria, olfatometria
+olfactométrico, olfatométrico
+olfactómetro, olfatómetro
+olfactório, olfatório
+olfacção, olfação
+olfáctica, olfática
+olfáctico, olfático
+olho de mosquito, olho-de-mosquito
+olho de sogra, olho-de-sogra
+olho de tigre, olho-de-tigre
+omnidireccional, omnidirecional
+omoide, omóide
+opticidade, oticidade
+opticista, oticista
+opticometria, oticometria
+opticométrico, oticométrico
+opticómetro, oticómetro
+optimamente, otimamente
+optimismo, otimismo
+optimista, otimista
+optimizar, otimizar
+optimização, otimização
+optimístico, otimístico
+orelhas de abade, orelhas-de-abade
+organoide, organóide
+organoléptico, organolético
+organotáctico, organotático
+orizoide, orizóide
+ornitoide, ornitóide
+orquiopéctico, orquiopético
+ortopinacoide, ortopinacóide
+ortopnoico, ortopnóico
+osteoganoide, osteoganóide
+osteoide, osteóide
+ovoide, ovóide
+pai de meninos, pai-de-meninos
+pai de santo, pai-de-santo
+pai de todos, pai-de-todos
+pai de velhacos, pai-de-velhacos
+paleozoico, paleozóico
+paleárctica, paleártica
+paleárctico, paleártico
+palha de abade, palha-de-abade
+paloio, palóio
+palpos de aranha, palpos-de-aranha
+panóptico, panótico
+papo de anjo, papo-de-anjo
+papo de rola, papo-de-rola
+para-brisa, pára-brisa
+para-brisas, pára-brisas
+para-choque, pára-choque
+para-choques, pára-choques
+para-chuva, pára-chuva
+para-escolar, paraescolar
+para-fogo, pára-fogo
+para-lama, pára-lama
+para-lamas, pára-lamas
+para-luz, pára-luz
+para-quedas, pára-quedas
+para-quedismo, pára-quedismo
+para-quedista, pára-quedista
+para-raios, pára-raios
+para-sol, pára-sol
+para-vento, pára-vento
+para-água, pára-água
+para-águas, pára-águas
+paraboloide, parabolóide
+paraeléctrico, paraelétrico
+paralacticamente, paralaticamente
+paraláctico, paralático
+paraléctico, paralético
+paranoia, paranóia
+paranoica, paranóica
+paranoico, paranóico
+paranoide, paranóide
+parapléctico, paraplético
+parapopléctico, parapoplético
+parapéctico, parapético
+parasitoide, parasitóide
+paratifoide, paratifóide
+paratireoide, paratireóide
+paratiroide, paratiróide
+paratáctico, paratático
+pareléctrico, parelétrico
+parvoide, parvóide
+paróptico, parótico
+passarinho a olhar, passarinho-a-olhar
+passarinho-do-egipto, passarinho-do-egito
+patetoide, patetóide
+pau a pique, pau-a-pique
+pau de cabeleira, pau-de-cabeleira
+pau de fileira, pau-de-fileira
+pau do ar, pau-do-ar
+paz de alma, paz-de-alma
+pedaço de asno, pedaço-de-asno
+pedra da lua, pedra-da-lua
+pedra das amazonas, pedra-das-amazonas
+pedra de afiar, pedra-de-afiar
+pedra de amolar, pedra-de-amolar
+pedra de cevar, pedra-de-cevar
+pedra de raio, pedra-de-raio
+pedra de sangue, pedra-de-sangue
+pedra de toque, pedra-de-toque
+pedra de águia, pedra-de-águia
+pedra do ar, pedra-do-ar
+pedra do sol, pedra-do-sol
+pedrinha na boca, pedrinha-na-boca
+pegamoide, pegamóide
+pegmatitoide, pegmatitóide
+pegmatoide, pegmatóide
+peito de canga, peito-de-canga
+peito de morte, peito-de-morte
+peixe-eléctrico, peixe-elétrico
+pela, péla
+pele de vinho, pele-de-vinho
+pelo, pêlo
+penatissecto, penatisseto
+penfigoide, penfigóide
+pera, péra, pêra
+pera-da-terra, pêra-da-terra
+pera-de-arrátel, pêra-de-arrátel
+pera-de-bom-cristão, pêra-de-bom-cristão
+percecionar, percepcionar
+percecionismo, percepcionismo
+percecionista, percepcionista
+perceptibilidade, percetibilidade
+perceptivamente, percetivamente
+perceptivelmente, percetivelmente
+perceptividade, percetividade
+perceptivo, percetivo
+percepto, perceto
+perceptual, percetual
+perceptível, percetível
+percepção, perceção
+percoide, percóide
+perempto, perento
+peremptoriamente, perentoriamente
+peremptoriedade, perentoriedade
+peremptório, perentório
+perempção, perenção
+perfeccional, perfecional
+perfeccionismo, perfecionismo
+perfeccionista, perfecionista
+perfeccionístico, perfecionístico
+perfectibilidade, perfetibilidade
+perfectibilismo, perfetibilismo
+perfectibilista, perfetibilista
+perfectibilizar, perfetibilizar
+perfectivação, perfetivação
+perfectividade, perfetividade
+perfectivo, perfetivo
+perfectível, perfetível
+pergamoide, pergamóide
+perirrectite, perirretite
+perna de serra, perna-de-serra
+pero, pêro
+perspectiva, perspetiva
+perspectival, perspetival
+perspectivar, perspetivar
+perspectivação, perspetivação
+perspectividade, perspetividade
+perspectivismo, perspetivismo
+perspectivista, perspetivista
+perspectivo, perspetivo
+perspectivístico, perspetivístico
+perspectográfico, perspetográfico
+perspectógrafo, perspetógrafo
+perspéctico, perspético
+petaloide, petalóide
+pezizoide, pezizóide
+piano dos pretos, piano-dos-pretos
+piezelectricidade, piezeletricidade
+piezeléctrico, piezelétrico
+piezoelectricidade, piezoeletricidade
+piezoeléctrico, piezoelétrico
+piloia, pilóia
+pinacoide, pinacóide
+pingo de tocha, pingo-de-tocha
+pingos de ovos, pingos-de-ovos
+pinho de flandres, pinho-de-flandres
+pinoia, pinóia
+pinoio, pinóio
+piolho de cobra, piolho-de-cobra
+pirelectricidade, pireletricidade
+pireléctrico, pirelétrico
+pirenoide, pirenóide
+piritoide, piritóide
+piroelectricidade, piroeletricidade
+piroeléctrico, piroelétrico
+piroide, piróide
+pitecantropoide, pitecantropóide
+pitecoide, pitecóide
+pitimboia, pitimbóia
+pião das nicas, pião-das-nicas
+placoide, placóide
+planetoide, planetóide
+plasmorréctico, plasmorrético
+platinoide, platinóide
+pleocroico, pleocróico
+pluriactividade, pluriatividade
+pneumopléctico, pneumoplético
+pneumopéctico, pneumopético
+polaroide, polaróide
+policroico, policróico
+poliplectro, polipletro
+poliploide, poliplóide
+polipnoico, polipnóico
+polipoide, polipóide
+politicoide, politicóide
+polizoico, polizóico
+pomo de adão, pomo-de-adão
+ponta de lança, ponta-de-lança
+porfiroide, porfiróide
+porta da rua, porta-da-rua
+porta-joias, porta-jóias
+porta-objecto, porta-objeto
+preceptista, precetista
+preceptivamente, precetivamente
+preceptivo, precetivo
+preceptor, precetor
+preceptora, precetora
+preceptorado, precetorado
+preceptoral, precetoral
+preceptoria, precetoria
+preceptorial, precetorial
+preconceptivo, preconcetivo
+preconcepção, preconceção
+predilecta, predileta
+predilectamente, prediletamente
+predilecto, predileto
+predilecção, predileção
+preleccionador, prelecionador
+preleccionar, prelecionar
+preleccionista, prelecionista
+prelector, preletor
+prelectorado, preletorado
+prelecção, preleção
+prismatoide, prismatóide
+prismoide, prismóide
+procataléptico, procatalético
+proctopéctico, proctopético
+profilacticamente, profilaticamente
+profilactismo, profilatismo
+profiláctico, profilático
+projeccional, projecional
+projeccionista, projecionista
+projectado, projetado
+projectador, projetador
+projectante, projetante
+projectar, projetar
+projectação, projetação
+projectista, projetista
+projectivo, projetivo
+projecto, projeto
+projecto-lei, projeto-lei
+projecto-piloto, projeto-piloto
+projectográfico, projetográfico
+projector, projetor
+projectoscópico, projetoscópico
+projectura, projetura
+projectável, projetável
+projectício, projetício
+projectógrafo, projetógrafo
+projecção, projeção
+projéctil, projétil
+prolepticamente, proleticamente
+proléctico, prolético
+propanoico, propanóico
+propenoico, propenóico
+proprioceptivo, propriocetivo
+proprioceptor, propriocetor
+prospectar, prospetar
+prospectiva, prospetiva
+prospectivo, prospetivo
+prospecto, prospeto
+prospector, prospetor
+prospectora, prospetora
+prospecção, prospeção
+prostatopéctico, prostatopético
+proteccional, protecional
+proteccionismo, protecionismo
+proteccionista, protecionista
+protectivo, protetivo
+protector, protetor
+protectora, protetora
+protectorado, protetorado
+protectoral, protetoral
+protectorato, protetorato
+protectoria, protetoria
+protectório, protetório
+protecção, proteção
+proterozoico, proterozóico
+proto-alveitar, protoalveitar
+proto-estrela, protoestrela
+proto-evangelho, protoevangelho
+proto-renascimento, protorrenascimento
+proto-revolucionário, protorrevolucionário
+proto-revolução, protorrevolução
+proto-romantismo, protorromantismo
+proto-romboedro, protorromboedro
+proto-romântico, protorromântico
+proto-sincelo, protossincelo
+proto-sol, protossol
+proto-solar, protossolar
+proto-sulfureto, protossulfureto
+proto-ária, protoária
+proto-árico, protoárico
+protozoide, protozóide
+protráctil, protrátil
+prozoico, prozóico
+pré-adjectival, pré-adjetival
+pré-adopção, pré-adoção
+pré-objectal, pré-objetal
+pré-seleccionado, pré-selecionado
+pré-selectivo, pré-seletivo
+pré-selecção, pré-seleção
+príncipe de gales, príncipe-de-gales
+pró-activo, pró-ativo
+pseudo-anemia, pseudoanemia
+pseudo-anónimo, pseudoanónimo
+pseudo-apatite, pseudoapatite
+pseudo-apendicite, pseudoapendicite
+pseudo-apóstolo, pseudoapóstolo
+pseudo-arcaísmo, pseudoarcaísmo
+pseudo-aticismo, pseudoaticismo
+pseudo-eolismo, pseudoeolismo
+pseudo-escorpionídeo, pseudoescorpionídeo
+pseudo-escorpião, pseudoescorpião
+pseudo-esteatite, pseudoesteatite
+pseudo-etimologia, pseudoetimologia
+pseudo-etimológico, pseudoetimológico
+pseudo-eufemismo, pseudoeufemismo
+pseudo-eufémico, pseudoeufémico
+pseudo-evangelista, pseudoevangelista
+pseudo-eólico, pseudoeólico
+pseudo-ionismo, pseudoionismo
+pseudo-iónico, pseudoiónico
+pseudo-revelação, pseudorrevelação
+pseudo-sábio, pseudossábio
+pseudo-sínodo, pseudossínodo
+pseudo-ático, pseudoático
+pseudobaptizado, pseudobatizado
+pseudodialectal, pseudodialetal
+pseudorréctico, pseudorrético
+psicoactivo, psicoativo
+pterigoide, pterigóide
+pteroide, pteróide
+pulsorreactor, pulsorreator
+punctura, puntura
+putrefactivo, putrefativo
+putrefactor, putrefator
+putrefactório, putrefatório
+putrefacção, putrefação
+pão de açúcar, pão-de-açúcar
+pão de ló, pão-de-ló
+pão por deus, pão-por-deus
+pé de alferes, pé-de-alferes
+pé de altar, pé-de-altar
+pé de amigo, pé-de-amigo
+pé de atleta, pé-de-atleta
+pé de banco, pé-de-banco
+pé de boi, pé-de-boi
+pé de cabra, pé-de-cabra
+pé de cana, pé-de-cana
+pé de candeeiro, pé-de-candeeiro
+pé de cantiga, pé-de-cantiga
+pé de cavalo, pé-de-cavalo
+pé de chumbo, pé-de-chumbo
+pé de dança, pé-de-dança
+pé de moleque, pé-de-moleque
+pé de pato, pé-de-pato
+pé de vento, pé-de-vento
+pés de lebre, pés-de-lebre
+pó de arroz, pó-de-arroz
+pó de chipre, pó-de-chipre
+pó de goa, pó-de-goa
+pó de sapato, pó-de-sapato
+pó de talco, pó-de-talco
+pós-adjectival, pós-adjetival
+pôr do sol, pôr-do-sol
+quadrirreactor, quadrirreator
+quapoia, quapóia
+quarto de final, quarto-de-final
+quartos de final, quartos-de-final
+queijinho do céu, queijinho-do-céu
+queloide, quelóide
+quimiorreceptividade, quimiorrecetividade
+quimiorreceptivo, quimiorrecetivo
+quimiorreceptor, quimiorrecetor
+quimiorrecepção, quimiorreceção
+quimiotactismo, quimiotatismo
+quimiotáctico, quimiotático
+rabditoide, rabditóide
+rabdoide, rabdóide
+rabo de andorinha, rabo-de-andorinha
+rabo de arraia, rabo-de-arraia
+rabo de leque, rabo-de-leque
+rabo de saia, rabo-de-saia
+rabo de tatu, rabo-de-tatu
+radiactividade, radiatividade
+radiactivo, radiativo
+radielectricidade, radieletricidade
+radieléctrico, radielétrico
+radioactividade, radioatividade
+radioactivo, radioativo
+radioelectricidade, radioeletricidade
+radioelectrónico, radioeletrónico
+radioeléctrico, radioelétrico
+radiorreceptor, radiorrecetor
+ragoide, ragóide
+ramboia, rambóia
+ranfoide, ranfóide
+rarefactibilidade, rarefatibilidade
+rarefactivo, rarefativo
+rarefactor, rarefator
+rarefactível, rarefatível
+rarefacção, rarefação
+rato-do-egipto, rato-do-egito
+reaccional, reacional
+reaccionariamente, reacionariamente
+reaccionarismo, reacionarismo
+reaccionarista, reacionarista
+reaccionismo, reacionismo
+reaccionista, reacionista
+reaccionária, reacionária
+reaccionário, reacionário
+reactivado, reativado
+reactivador, reativador
+reactivar, reativar
+reactivação, reativação
+reactividade, reatividade
+reactivo, reativo
+reactor, reator
+reactualizar, reatualizar
+reacção, reação
+readoptar, readotar
+readopção, readoção
+rebaptismo, rebatismo
+rebaptizar, rebatizar
+rececionado, recepcionado
+rececionamento, recepcionamento
+rececionante, recepcionante
+rececionar, recepcionar
+rececionista, recepcionista
+rececionável, recepcionável
+receptacular, recetacular
+receptado, recetado
+receptador, recetador
+receptadora, recetadora
+receptar, recetar
+receptação, recetação
+receptibilidade, recetibilidade
+receptiva, recetiva
+receptividade, recetividade
+receptivo, recetivo
+receptor, recetor
+receptora, recetora
+receptáculo, recetáculo
+receptível, recetível
+recepção, receção
+recolecta, recoleta
+recolecto, recoleto
+recolecção, recoleção
+recorrecção, recorreção
+recta, reta
+recta-pronúncia, reta-pronúncia
+rectal, retal
+rectalgia, retalgia
+rectamente, retamente
+rectangular, retangular
+rectangularidade, retangularidade
+rectangularmente, retangularmente
+recticórneo, reticórneo
+rectidão, retidão
+rectificador, retificador
+rectificar, retificar
+rectificativo, retificativo
+rectificação, retificação
+rectificável, retificável
+rectifloro, retifloro
+rectiforme, retiforme
+rectilineamente, retilineamente
+rectilinearidade, retilinearidade
+rectilíneo, retilíneo
+rectinérveo, retinérveo
+rectiparalelinérveo, retiparalelinérveo
+rectirrostro, retirrostro
+rectite, retite
+rectitude, retitude
+recto, reto
+recto-uretral, retouretral
+rectocele, retocele
+rectococcígeo, retococcígeo
+rectocolite, retocolite
+rectopexia, retopexia
+rectopéctico, retopético
+rector, retor
+rectoscopia, retoscopia
+rectoscópico, retoscópico
+rectoscópio, retoscópio
+rectotomia, retotomia
+rectotómico, retotómico
+rectovaginal, retovaginal
+rectovesical, retovesical
+rectricial, retricial
+rectriz, retriz
+recturetral, returetral
+rectângulo, retângulo
+rectígrado, retígrado
+redactor, redator
+redactor-chefe, redator-chefe
+redactor-secretário, redator-secretário
+redactora, redatora
+redactora-chefe, redatora-chefe
+redactorial, redatorial
+redacção, redação
+redireccionar, redirecionar
+reelectrómetro, reeletrómetro
+refectivo, refetivo
+refectório, refetório
+reflectidamente, refletidamente
+reflectido, refletido
+reflectidor, refletidor
+reflectir, refletir
+reflectividade, refletividade
+reflectivo, refletivo
+reflectografia, refletografia
+reflectográfico, refletográfico
+reflectométrico, refletométrico
+reflector, refletor
+reflectómetro, refletómetro
+refractar, refratar
+refractariamente, refratariamente
+refractarismo, refratarismo
+refractividade, refratividade
+refractivo, refrativo
+refracto, refrato
+refractometria, refratometria
+refractométrico, refratométrico
+refractor, refrator
+refractoscópico, refratoscópico
+refractoscópio, refratoscópio
+refractário, refratário
+refractómetro, refratómetro
+refracção, refração
+regiolectal, regioletal
+regiolecto, regioleto
+reida, réida
+reinfeccionar, reinfecionar
+reinfecção, reinfeção
+relógio de ponto, relógio-de-ponto
+reotáctico, reotático
+resina de jalapa, resina-de-jalapa
+resinoide, resinóide
+respectivamente, respetivamente
+respectivo, respetivo
+ressurreccional, ressurrecional
+ressurreccionismo, ressurrecionismo
+ressurreccionista, ressurrecionista
+ressurrecto, ressurreto
+retinoide, retinóide
+reto-românico, retorromânico
+retractar, retratar
+retractação, retratação
+retractilidade, retratilidade
+retractivamente, retrativamente
+retractivo, retrativo
+retracto, retrato
+retractável, retratável
+retracção, retração
+retroactivamente, retroativamente
+retroactividade, retroatividade
+retroactivo, retroativo
+retroactor, retroator
+retroacção, retroação
+retroflectido, retrofletido
+retroflectir, retrofletir
+retroprojectar, retroprojetar
+retroprojector, retroprojetor
+retroprojecção, retroprojeção
+retrospectiva, retrospetiva
+retrospectivamente, retrospetivamente
+retrospectividade, retrospetividade
+retrospectivo, retrospetivo
+retrospecto, retrospeto
+retrospecção, retrospeção
+retrotracção, retrotração
+retráctil, retrátil
+reumatoide, reumatóide
+ricciáceas, riciácea
+rinenfráctico, rinenfrático
+rizoide, rizóide
+rizotáctico, rizotático
+romboide, rombóide
+rosa de oiro, rosa-de-oiro
+rosa de ouro, rosa-de-ouro
+rosa dos ventos, rosa-dos-ventos
+roupa de franceses, roupa-de-franceses
+rubefacção, rubefação
+ruptura, rutura
+rés do chão, rés-do-chão
+ríccia, rícia
+saboia, sabóia
+saca de carvão, saca-de-carvão
+saca-projéctil, saca-projétil
+sacaroide, sacaróide
+saco de areia, saco-de-areia
+sal de azedas, sal-de-azedas
+sal de epsom, sal-de-epsom
+sal de glauber, sal-de-glauber
+sal de júpiter, sal-de-júpiter
+sal de saturno, sal-de-saturno
+sal de seldlitz, sal-de-seldlitz
+sal de vichy, sal-de-vichy
+saprozoico, saprozóico
+sarcoide, sarcóide
+sarcopioide, sarcopióide
+saída de banho, saída-de-banho
+saída de praia, saída-de-praia
+secantoide, secantóide
+sector, setor
+sectorial, setorial
+seleccionada, selecionada
+seleccionado, selecionado
+seleccionador, selecionador
+seleccionadora, selecionadora
+seleccionamento, selecionamento
+seleccionar, selecionar
+seleccionismo, selecionismo
+seleccionista, selecionista
+seleccionável, selecionável
+selecta, seleta
+selectar, seletar
+selectivamente, seletivamente
+selectividade, seletividade
+selectivo, seletivo
+selecto, seleto
+selector, seletor
+selecção, seleção
+selenoide, selenóide
+semi-esferóide, semiesferoide, semiesferóide
+semi-racional, semirracional
+semi-radiado, semirradiado
+semi-real, semirreal
+semi-reboque, semirreboque
+semi-recta, semirreta
+semi-recto, semirreto
+semi-rei, semirrei
+semi-religioso, semirreligioso
+semi-romano, semirromano
+semi-roto, semirroto
+semi-rígido, semirrígido
+semi-sagitado, semissagitado
+semi-secular, semissecular
+semi-sedentário, semissedentário
+semi-segredo, semissegredo
+semi-selvagem, semisselvagem
+semi-septenário, semisseptenário
+semi-sepulto, semissepulto
+semi-silvestre, semissilvestre
+semi-soberania, semissoberania
+semi-soberano, semissoberano
+semi-som, semissom
+semi-soma, semissoma
+semi-sonora, semissonora
+semi-sonoro, semissonoro
+semi-sábio, semissábio
+senoide, senóide
+sentimentaloide, sentimentalóide
+sepaloide, sepalóide
+septuplicar, setuplicar
+sequoia, sequóia
+sericoia, sericóia
+sesamoide, sesamóide
+sifiloide, sifilóide
+sifonoide, sifonóide
+sigmoide, sigmóide
+siluroide, siluróide
+simpléctico, simplético
+sinoico, sinóico
+sintacticamente, sintaticamente
+sintacticista, sintaticista
+sintoxoide, sintoxóide
+sintáctico, sintático
+sinusoide, sinusóide
+sobre-elevar, sobreelevar
+sobre-eminente, sobreeminente
+sobre-eminência, sobreeminência
+sobre-emissão, sobreemissão
+sobre-endividamento, sobreendividamento
+sobre-endividar, sobreendividar
+sobre-erguer, sobreerguer
+sobre-errogação, sobreerrogação
+sobre-exaltar, sobreexaltar
+sobre-exaltação, sobreexaltação
+sobre-excedente, sobreexcedente
+sobre-exceder, sobreexceder
+sobre-excelente, sobreexcelente
+sobre-excelência, sobreexcelência
+sobre-excitado, sobreexcitado
+sobre-excitante, sobreexcitante
+sobre-excitar, sobreexcitar
+sobre-excitação, sobreexcitação
+sobre-exploração, sobreexploração
+sobre-expor, sobreexpor
+sobre-exposição, sobreexposição
+sobrefacturação, sobrefaturação
+sobrejectiva, sobrejetiva
+sobrejectivo, sobrejetivo
+sobrejecção, sobrejeção
+sociolectal, socioletal
+sociolecto, socioleto
+soia, sóia
+sol de gata, sol-de-gata
+solenoide, solenóide
+sopa de urso, sopa-de-urso
+sopinha de massa, sopinha-de-massa
+subacepção, subaceção
+subaracnoide, subaracnóide
+subdialectal, subdialetal
+subdialecto, subdialeto
+subdirector, subdiretor
+subdirector-geral, subdiretor-geral
+subdirectora, subdiretora
+subdirectoria, subdiretoria
+subdirectório, subdiretório
+subdirecção, subdireção
+subicterícia, subiterícia
+subictérico, subitérico
+subinspector, subinspetor
+subinspectora, subinspetora
+subinspectoria, subinspetoria
+subinspecção, subinspeção
+subjectivamente, subjetivamente
+subjectivar, subjetivar
+subjectivação, subjetivação
+subjectividade, subjetividade
+subjectivismo, subjetivismo
+subjectivista, subjetivista
+subjectivizar, subjetivizar
+subjectivo, subjetivo
+subjectivístico, subjetivístico
+subjecção, subjeção
+subsector, subsetor
+subtractivamente, subtrativamente
+subtractivo, subtrativo
+subtractor, subtrator
+subtractora, subtratora
+subtracção, subtração
+subárctico, subártico
+sulfuroide, sulfuróide
+superactivado, superativado
+superactividade, superatividade
+superactivo, superativo
+superinfecção, superinfeção
+superprotecção, superproteção
+supra-escapular, supraescapular
+supra-esternal, supraesternal
+supra-estrutura, supraestrutura
+supra-excitar, supraexcitar
+supra-occipital, supraoccipital
+supra-ocular, supraocular
+supra-orbital, supraorbital
+supra-orbitário, supraorbitário
+supra-racial, suprarracial
+supra-racional, suprarracional
+supra-regional, suprarregional
+supra-renal, suprarrenal
+supra-renalite, suprarrenalite
+supra-sensibilidade, suprassensibilidade
+supra-sensível, suprassensível
+supra-sumo, suprassumo
+susceptibilidade, suscetibilidade
+susceptibilizar, suscetibilizar
+susceptível, suscetível
+suscepção, susceção
+suspensoide, suspensóide
+séptico, sético
+séptuplo, sétuplo
+tabloide, tablóide
+tacteabilidade, tateabilidade
+tacteadamente, tateadamente
+tacteamento, tateamento
+tacteante, tateante
+tactear, tatear
+tacteio, tateio
+tacteável, tateável
+tacticamente, taticamente
+tacticografia, taticografia
+tacticográfico, taticográfico
+tacticógrafo, taticógrafo
+tactilidade, tatilidade
+tactilmente, tatilmente
+tactismo, tatismo
+tacto, tato
+talagoia, talagóia
+tangentoide, tangentóide
+tecnolectal, tecnoletal
+tecnolecto, tecnoleto
+tecto, teto
+tele-receptor, telerrecetor
+teledetectar, teledetetar
+teledetecção, teledeteção
+teleobjectiva, teleobjetiva
+teleprojéctil, teleprojétil
+telespectador, telespetador
+telespectadora, telespetadora
+telobjectiva, telobjetiva
+telóptico, telótico
+tenioide, tenióide
+tenontopéctico, tenontopético
+tenopéctico, tenopético
+tensioactivo, tensioativo
+tepaloide, tepalóide
+termelectricidade, termeletricidade
+termeléctrico, termelétrico
+termocroico, termocróico
+termodieléctrico, termodielétrico
+termoelectricidade, termoeletricidade
+termoeléctrico, termoelétrico
+termotactismo, termotatismo
+termotáctico, termotático
+terra a terra, terra-a-terra
+terra de ninguém, terra-de-ninguém
+terra de sevilha, terra-de-sevilha
+terra de siena, terra-de-siena
+testa de ferro, testa-de-ferro
+testa de ponte, testa-de-ponte
+tetraploide, tetraplóide
+tiflopéctico, tiflopético
+tifoide, tifóide
+tigmotactismo, tigmotatismo
+tigmotáctico, tigmotático
+tigroide, tigróide
+tilacoide, tilacóide
+tinta da china, tinta-da-china
+tipoia, tipóia
+tireoide, tireóide
+tiro de guerra, tiro-de-guerra
+tiroide, tiróide
+tirsoide, tirsóide
+toino, tóino
+torrefactor, torrefator
+torrefacção, torrefação
+torrão de alicante, torrão-de-alicante
+toucinho do céu, toucinho-do-céu
+toxicoide, toxicóide
+toxoide, toxóide
+traccionar, tracionar
+tracoide, tracóide
+tracto, trato
+tractocarro, tratocarro
+tractor, trator
+tractorista, tratorista
+tractório, tratório
+tracção, tração
+trairamboia, trairambóia
+trajecto, trajeto
+trajector, trajetor
+trajectória, trajetória
+tramoia, tramóia
+transaccionador, transacionador
+transaccionadora, transacionadora
+transaccional, transacional
+transaccionar, transacionar
+transaccionista, transacionista
+transaccionável, transacionável
+transacto, transato
+transactor, transator
+transactora, transatora
+transacção, transação
+transceptor, transcetor
+transobjectivo, transobjetivo
+trapezoide, trapezóide
+traquelopéctico, traquelopético
+traqueoide, traqueóide
+traquitoide, traquitóide
+triboelectricidade, triboeletricidade
+triboeléctrico, triboelétrico
+tricoide, tricóide
+tricorréctico, tricorrético
+tricroico, tricróico
+trioico, trióico
+triploide, triplóide
+trirrectângulo, trirretângulo
+trissectriz, trissetriz
+trocoide, trocóide
+trofotactismo, trofotatismo
+troia, tróia
+troica, tróica
+troico, tróico
+troixa de ovos, troixa-de-ovos
+tromba de boi, tromba-de-boi
+tromboide, trombóide
+trouxa de ovos, trouxa-de-ovos
+tuberculoide, tuberculóide
+tuberoide, tuberóide
+tucanaboia, tucanabóia
+tumefacção, tumefação
+turbinosfenoide, turbinosfenóide
+turbinosfenoideo, turbinosfenóideo
+turborreactor, turborreator
+táctica, tática
+táctico, tático
+táctil, tátil
+técnico-táctico, técnico-tático
+ténis de mesa, ténis-de-mesa
+uaruremboia, uarurembóia
+ulceroide, ulceróide
+ulcoide, ulcóide
+ultra-esdrúxulo, ultraesdrúxulo
+ultra-etimológico, ultraetimológico
+ultra-existente, ultraexistente
+ultra-existência, ultraexistência
+ultra-infernal, ultrainfernal
+ultra-oceânico, ultraoceânico
+ultra-ortodoxo, ultraortodoxo
+ultra-radical, ultrarradical
+ultra-reaccionária, ultrarreacionária
+ultra-reaccionário, ultrarreacionário
+ultra-reacção, ultrarreação
+ultra-realismo, ultrarrealismo
+ultra-realista, ultrarrealista
+ultra-revolucionária, ultrarrevolucionária
+ultra-revolucionário, ultrarrevolucionário
+ultra-rigoroso, ultrarrigoroso
+ultra-romantismo, ultrarromantismo
+ultra-romantizar, ultrarromantizar
+ultra-romântica, ultrarromântica
+ultra-romântico, ultrarromântico
+ultra-roxo, ultrarroxo
+ultra-rápido, ultrarrápido
+ultra-secreto, ultrassecreto
+ultra-secular, ultrassecular
+ultra-sensível, ultrassensível
+ultra-sofisticado, ultrassofisticado
+ultra-solar, ultrassolar
+ultra-som, ultrassom
+ultra-sonografia, ultrassonografia
+ultra-sonográfico, ultrassonográfico
+ultra-sonoro, ultrassonoro
+ultra-sonógrafo, ultrassonógrafo
+ultra-sónico, ultrassónico
+ultra-terreno, ultraterreno
+ultracorrecto, ultracorreto
+ultracorrecção, ultracorreção
+umbigo de freira, umbigo-de-freira
+unha de fome, unha-de-fome
+unhas de fome, unhas-de-fome
+unidireccional, unidirecional
+ureterenfráctico, ureterenfrático
+uretrofráctico, uretrofrático
+uretrorrectal, uretrorretal
+uretrotromboide, uretrotrombóide
+urobenzoico, urobenzóico
+uroide, uróide
+vacinoide, vacinóide
+vaginorrectal, vaginorretal
+variceloide, varicelóide
+varioloide, variolóide
+vasoactivo, vasoativo
+vectação, vetação
+vector, vetor
+vectorial, vetorial
+vectorizar, vetorizar
+vectrice, vetrice
+vedoia, vedóia
+venipunctura, venipuntura
+verbo de encher, verbo-de-encher
+veredicto, veredito
+vesicorrectal, vesicorretal
+vice-colector, vice-coletor
+vice-director, vice-diretor
+vice-directora, vice-diretora
+vice-directoria, vice-diretoria
+vice-direcção, vice-direção
+vidro de cheiro, vidro-de-cheiro
+vinho de caju, vinho-de-caju
+vinho de cheiro, vinho-de-cheiro
+vinho de maçã, vinho-de-maçã
+vinho de maçãs, vinho-de-maçãs
+vinho de palma, vinho-de-palma
+vinte e quatro horas, vinte-e-quatro-horas
+vintém de santo antónio, vintém-de-santo-antónio
+viola da terra, viola-da-terra
+viola de amor, viola-de-amor
+viola de arame, viola-de-arame
+volta no meio, volta-no-meio
+x-acto, x-ato
+xifoide, xifóide
+xiloide, xilóide
+xistoide, xistóide
+zebroide, zebróide
+zeida, zéida
+zigotactismo, zigotatismo
+zigotáctico, zigotático
+zoelectricidade, zoeletricidade
+zoeléctrico, zoelétrico
+zoico, zóico
+zoide, zóide
+zooelectricidade, zooeletricidade
+zooeléctrico, zooelétrico
+zoofitoide, zoofitóide
+zooide, zoóide
+zootáctico, zootático
+zoóptico, zoótico
+zé da véstia, zé-da-véstia
+zé dos anzois, zé-dos-anzóis
+água de força, água-de-força
+água de lume, água-de-lume
+água de mesa, água-de-mesa
+água de végeto, água-de-végeto
+árctico, ártico
+árvore da vida, árvore-da-vida
+óptica, ótica
+óptico, ótico
+óptimo, ótimo
+
+# --- Skipped: identical once lowercased (already handled by the analyzer's LowerCaseFilter) ---
+# Abril, abril # not added because our analyzer already ignores case.
+# Agosto, agosto # not added because our analyzer already ignores case.
+# Beltrano, beltrano # not added because our analyzer already ignores case.
+# Dezembro, dezembro # not added because our analyzer already ignores case.
+# Estio, estio # not added because our analyzer already ignores case.
+# Fevereiro, fevereiro # not added because our analyzer already ignores case.
+# Fulano, fulano # not added because our analyzer already ignores case.
+# Inverno, inverno # not added because our analyzer already ignores case.
+# Janeiro, janeiro # not added because our analyzer already ignores case.
+# Julho, julho # not added because our analyzer already ignores case.
+# Junho, junho # not added because our analyzer already ignores case.
+# Maio, maio # not added because our analyzer already ignores case.
+# Março, março # not added because our analyzer already ignores case.
+# Novembro, novembro # not added because our analyzer already ignores case.
+# Outono, outono # not added because our analyzer already ignores case.
+# Outubro, outubro # not added because our analyzer already ignores case.
+# Primavera, primavera # not added because our analyzer already ignores case.
+# Setembro, setembro # not added because our analyzer already ignores case.
+# Sicrano, sicrano # not added because our analyzer already ignores case.
+# Verão, verão # not added because our analyzer already ignores case.
+# aspectual # not added because our analyzer already ignores case.
+# holárctico # not added because our analyzer already ignores case.
+# insurreccionista # not added because our analyzer already ignores case.
+# punctiforme # not added because our analyzer already ignores case.
+# sectorizar # not added because our analyzer already ignores case.
+# sectorização # not added because our analyzer already ignores case.
+# tourão-do-mato # not added because our analyzer already ignores case.
