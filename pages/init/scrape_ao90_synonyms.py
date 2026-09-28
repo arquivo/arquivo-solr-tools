@@ -12,7 +12,7 @@
 #
 #   Arguments:
 #       --output   Path to write the generated synonyms file to.
-#                  (default: solr-configset/pages/conf/ao90_synonyms.txt,
+#                  (default: solr-configset/pages/conf/lang/ao90_synonyms.txt,
 #                  relative to this script)
 #       --version  Site "version" query param: pe (Portugal, default),
 #                  pb (Brazil), or all.
@@ -52,7 +52,12 @@ ROW_RE = re.compile(
     r"<tr [^>]*><td title='forma antiga'>([^<]*)<td>([^<]*)<td>[^<]*<p>"
 )
 DEFAULT_OUTPUT = (
-    Path(__file__).parent / "solr-configset" / "pages" / "conf" / "ao90_synonyms.txt"
+    Path(__file__).parent
+    / "solr-configset"
+    / "pages"
+    / "conf"
+    / "lang"
+    / "ao90_synonyms.txt"
 )
 
 
